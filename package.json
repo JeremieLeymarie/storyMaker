@@ -1,0 +1,21 @@
+{
+  "name": "storymaker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cli-color": "^2.0.1",
+    "dotenv": "^16.0.0",
+    "ts-node-dev": "^1.1.8"
+  },
+  "devDependencies": {
+    "@types/cli-color": "^2.0.2",
+    "@types/node": "^17.0.21"
+  }
+}
