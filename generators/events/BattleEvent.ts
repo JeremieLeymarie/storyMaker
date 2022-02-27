@@ -1,9 +1,6 @@
-import { Person } from "../PersonGenerator";
 import { Region } from "../RegionGenerator";
-import { getRandomNumberInRange } from "../utils";
+import { getRandomNumberInRange } from "../../utils";
 import { HistoricEvent } from "./EventGenerator";
-import { world } from "../index";
-console.log(world);
 
 export class BattleEvent extends HistoricEvent {
     belligerants: Region[];

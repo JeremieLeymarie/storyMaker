@@ -1,21 +1,10 @@
-import { World } from "./WorldGenerator";
-import * as fs from 'fs';
-import * as path from 'path';
 import clc from "cli-color";
-import { Timeline } from "./Timeline";
 const log = console.log;
 
 export class Printer {
-    world: World;
-    timeline: Timeline;
-
-    constructor(world: World, timeline: Timeline) {
-        this.world = world;
-        this.timeline = timeline;
-    }
 
     public printWorld(): void {
-        const welcomeStr = "Welcome to the world of " + this.world?.name;
+        const welcomeStr = "Welcome to the world of " + world?.name;
         let dashes = "";
         for (let i = 0; i < welcomeStr.length; i++) {
             dashes += "-";
@@ -23,22 +12,21 @@ export class Printer {
         log(clc.green(dashes))
         log(clc.green(welcomeStr));
         log(clc.green(dashes))
-        log(`It is made of ${this.world?.nbOfRegions} regions.`);
+        log(`It is made of ${world?.nbOfRegions} regions.`);
         this.printAllRegions();
     }
 
     public printAllRegions(): void {
-        this.world?.regions.forEach((e, i) => {
-            log(clc.magentaBright(`[${i}] ${this.world?.regions[i].name}`));
+        world?.regions.forEach((e:[], i:number) => {
+            log(clc.magentaBright(`[${i}] ${world?.regions[i].name}`));
         });
     }
 
     public printRegion(i: number): void {
-        if (i >= 0 && i <= this.world?.regions.length) {
-            const region = this.world?.regions[i]
+        if (i >= 0 && i <= world?.regions.length) {
+            const region = world?.regions[i]
             log(clc.magentaBright(`[${i}] ${region.name}`));
             log(`- Population : ${this.formatPopulation(region.population)}`)
-            log(`- Ruler : ${clc.cyan(region.ruler.name)}`)
             log(`- Climate : ${region.climate}`)
         }
         else {
@@ -48,8 +36,8 @@ export class Printer {
     }
 
     public printTimeline(): void {
-        log(this.timeline.years);
-        this.timeline.years.forEach((year, i) => {
+        log(timeline.years);
+        timeline.years.forEach((year:[][][], i:number) => {
             year.forEach((month, j) => {
                 month.forEach((week, k) => {
                     week.forEach((day, l) => {

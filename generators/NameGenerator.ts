@@ -1,5 +1,5 @@
-import { NameGeneratorParams } from "./interfaces";
-import { getRandomNumberInRange } from "./utils";
+import { NameGeneratorParams } from "../types/interfaces";
+import { getRandomNumberInRange } from "../utils";
 
 export class Name {
     name: string;

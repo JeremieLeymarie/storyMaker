@@ -1,0 +1,989 @@
+{
+    "years": [
+        [
+            [
+                [
+                    {
+                        "person": {
+                            "name": "Far",
+                            "birthday": "0",
+                            "age": 0
+                        }
+                    }
+                ],
+                [
+                    {
+                        "person": {
+                            "name": "Asd",
+                            "birthday": "0",
+                            "age": 0
+                        }
+                    }
+                ],
+                [],
+                [
+                    {
+                        "person": {
+                            "name": "Pua",
+                            "birthday": "0",
+                            "age": 0
+                        }
+                    },
+                    {
+                        "person": {
+                            "name": "Delniu",
+                            "birthday": "0",
+                            "age": 0
+                        }
+                    }
+                ],
+                [
+                    {
+                        "person": {
+                            "name": "Artohr",
+                            "birthday": "0",
+                            "age": 0
+                        }
+                    },
+                    {
+                        "person": {
+                            "name": "Yuu",
+                            "birthday": "0",
+                            "age": 0
+                        }
+                    },
+                    {
+                        "person": {
+                            "name": "Omp",
+                            "birthday": "0",
+                            "age": 0
+                        }
+                    }
+                ],
+                [
+                    {
+                        "belligerants": [
+                            {
+                                "name": "Gonahaumm",
+                                "climate": "tropical",
+                                "population": 7852978,
+                                "ruler": {
+                                    "name": "Ghuaghmo",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            },
+                            {
+                                "name": "Yorartoa",
+                                "climate": "dry",
+                                "population": 7672180,
+                                "ruler": {
+                                    "name": "Gonsarllo",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            }
+                        ],
+                        "durationInDays": 485,
+                        "winnerIndex": 0
+                    }
+                ],
+                [
+                    {
+                        "belligerants": [
+                            {
+                                "name": "Tagsoromp",
+                                "climate": "temperate",
+                                "population": 3082365,
+                                "ruler": {
+                                    "name": "Sed",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            },
+                            {
+                                "name": "Oll",
+                                "climate": "polar",
+                                "population": 4378265,
+                                "ruler": {
+                                    "name": "Abb",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            },
+                            {
+                                "name": "Ummtarhul",
+                                "climate": "tropical",
+                                "population": 1010457,
+                                "ruler": {
+                                    "name": "Asdohutag",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            }
+                        ],
+                        "durationInDays": 22,
+                        "winnerIndex": 2
+                    },
+                    {
+                        "person": {
+                            "name": "Halpuufur",
+                            "birthday": "0",
+                            "age": 0
+                        }
+                    },
+                    {
+                        "belligerants": [
+                            {
+                                "name": "Oll",
+                                "climate": "polar",
+                                "population": 4378265,
+                                "ruler": {
+                                    "name": "Abb",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            },
+                            {
+                                "name": "Oll",
+                                "climate": "polar",
+                                "population": 4378265,
+                                "ruler": {
+                                    "name": "Abb",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            },
+                            {
+                                "name": "Tagsoromp",
+                                "climate": "temperate",
+                                "population": 3082365,
+                                "ruler": {
+                                    "name": "Sed",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            }
+                        ],
+                        "durationInDays": 183,
+                        "winnerIndex": 3
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "person": {
+                            "name": "Puaohuluo",
+                            "birthday": "0",
+                            "age": 0
+                        }
+                    },
+                    {
+                        "person": {
+                            "name": "Ulltia",
+                            "birthday": "0",
+                            "age": 0
+                        }
+                    },
+                    {
+                        "person": {
+                            "name": "Tet",
+                            "birthday": "0",
+                            "age": 0
+                        }
+                    }
+                ],
+                [],
+                [
+                    {
+                        "belligerants": [
+                            {
+                                "name": "Borkalkol",
+                                "climate": "tropical",
+                                "population": 5545256,
+                                "ruler": {
+                                    "name": "Ompulldesa",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            },
+                            {
+                                "name": "Borkalkol",
+                                "climate": "tropical",
+                                "population": 5545256,
+                                "ruler": {
+                                    "name": "Ompulldesa",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            }
+                        ],
+                        "durationInDays": 319,
+                        "winnerIndex": 1
+                    }
+                ],
+                [
+                    {
+                        "person": {
+                            "name": "Rah",
+                            "birthday": "0",
+                            "age": 0
+                        }
+                    },
+                    {
+                        "belligerants": [
+                            {
+                                "name": "Yorartoa",
+                                "climate": "dry",
+                                "population": 7672180,
+                                "ruler": {
+                                    "name": "Gonsarllo",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            },
+                            {
+                                "name": "Yar",
+                                "climate": "tropical",
+                                "population": 9961355,
+                                "ruler": {
+                                    "name": "Yar",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            },
+                            {
+                                "name": "Yorartoa",
+                                "climate": "dry",
+                                "population": 7672180,
+                                "ruler": {
+                                    "name": "Gonsarllo",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            },
+                            {
+                                "name": "Oll",
+                                "climate": "polar",
+                                "population": 4378265,
+                                "ruler": {
+                                    "name": "Abb",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            }
+                        ],
+                        "durationInDays": 414,
+                        "winnerIndex": 1
+                    }
+                ],
+                [
+                    {
+                        "person": {
+                            "name": "Ara",
+                            "birthday": "0",
+                            "age": 0
+                        }
+                    },
+                    {
+                        "belligerants": [
+                            {
+                                "name": "Yar",
+                                "climate": "tropical",
+                                "population": 9961355,
+                                "ruler": {
+                                    "name": "Yar",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            },
+                            {
+                                "name": "Ummtarhul",
+                                "climate": "tropical",
+                                "population": 1010457,
+                                "ruler": {
+                                    "name": "Asdohutag",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            }
+                        ],
+                        "durationInDays": 471,
+                        "winnerIndex": 1
+                    }
+                ],
+                [],
+                [
+                    {
+                        "person": {
+                            "name": "Ahiallabb",
+                            "birthday": "0",
+                            "age": 0
+                        }
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "person": {
+                            "name": "Piauli",
+                            "birthday": "0",
+                            "age": 0
+                        }
+                    },
+                    {
+                        "person": {
+                            "name": "Nnadelomp",
+                            "birthday": "0",
+                            "age": 0
+                        }
+                    },
+                    {
+                        "person": {
+                            "name": "Hua",
+                            "birthday": "0",
+                            "age": 0
+                        }
+                    }
+                ],
+                [
+                    {
+                        "person": {
+                            "name": "All",
+                            "birthday": "0",
+                            "age": 0
+                        }
+                    },
+                    {
+                        "belligerants": [
+                            {
+                                "name": "Oll",
+                                "climate": "polar",
+                                "population": 4378265,
+                                "ruler": {
+                                    "name": "Abb",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            },
+                            {
+                                "name": "Ummtarhul",
+                                "climate": "tropical",
+                                "population": 1010457,
+                                "ruler": {
+                                    "name": "Asdohutag",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            },
+                            {
+                                "name": "Ummtarhul",
+                                "climate": "tropical",
+                                "population": 1010457,
+                                "ruler": {
+                                    "name": "Asdohutag",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            },
+                            {
+                                "name": "Yiart",
+                                "climate": "temperate",
+                                "population": 6638277,
+                                "ruler": {
+                                    "name": "Mardikol",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            }
+                        ],
+                        "durationInDays": 52,
+                        "winnerIndex": 4
+                    }
+                ],
+                [
+                    {
+                        "person": {
+                            "name": "Kilall",
+                            "birthday": "0",
+                            "age": 0
+                        }
+                    }
+                ],
+                [],
+                [
+                    {
+                        "person": {
+                            "name": "Kil",
+                            "birthday": "0",
+                            "age": 0
+                        }
+                    }
+                ],
+                [
+                    {
+                        "belligerants": [
+                            {
+                                "name": "Gonahaumm",
+                                "climate": "tropical",
+                                "population": 7852978,
+                                "ruler": {
+                                    "name": "Ghuaghmo",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            },
+                            {
+                                "name": "Gonahaumm",
+                                "climate": "tropical",
+                                "population": 7852978,
+                                "ruler": {
+                                    "name": "Ghuaghmo",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            },
+                            {
+                                "name": "Borkalkol",
+                                "climate": "tropical",
+                                "population": 5545256,
+                                "ruler": {
+                                    "name": "Ompulldesa",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            }
+                        ],
+                        "durationInDays": 368,
+                        "winnerIndex": 2
+                    },
+                    {
+                        "person": {
+                            "name": "Nni",
+                            "birthday": "0",
+                            "age": 0
+                        }
+                    },
+                    {
+                        "belligerants": [
+                            {
+                                "name": "Pelgonall",
+                                "climate": "polar",
+                                "population": 35221,
+                                "ruler": {
+                                    "name": "Opa",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            },
+                            {
+                                "name": "Ollpelmar",
+                                "climate": "temperate",
+                                "population": 377197,
+                                "ruler": {
+                                    "name": "Arp",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            },
+                            {
+                                "name": "Kalarnpia",
+                                "climate": "dry",
+                                "population": 6882045,
+                                "ruler": {
+                                    "name": "Arn",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            }
+                        ],
+                        "durationInDays": 487,
+                        "winnerIndex": 0
+                    }
+                ],
+                [
+                    {
+                        "belligerants": [
+                            {
+                                "name": "Yorartoa",
+                                "climate": "dry",
+                                "population": 7672180,
+                                "ruler": {
+                                    "name": "Gonsarllo",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            },
+                            {
+                                "name": "Pelgonall",
+                                "climate": "polar",
+                                "population": 35221,
+                                "ruler": {
+                                    "name": "Opa",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            },
+                            {
+                                "name": "Kalarnpia",
+                                "climate": "dry",
+                                "population": 6882045,
+                                "ruler": {
+                                    "name": "Arn",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            },
+                            {
+                                "name": "Kalarnpia",
+                                "climate": "dry",
+                                "population": 6882045,
+                                "ruler": {
+                                    "name": "Arn",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            }
+                        ],
+                        "durationInDays": 475,
+                        "winnerIndex": 3
+                    },
+                    {
+                        "belligerants": [
+                            {
+                                "name": "Yiart",
+                                "climate": "temperate",
+                                "population": 6638277,
+                                "ruler": {
+                                    "name": "Mardikol",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            },
+                            {
+                                "name": "Pelgonall",
+                                "climate": "polar",
+                                "population": 35221,
+                                "ruler": {
+                                    "name": "Opa",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            },
+                            {
+                                "name": "Pelgonall",
+                                "climate": "polar",
+                                "population": 35221,
+                                "ruler": {
+                                    "name": "Opa",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            },
+                            {
+                                "name": "Ummtarhul",
+                                "climate": "tropical",
+                                "population": 1010457,
+                                "ruler": {
+                                    "name": "Asdohutag",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            }
+                        ],
+                        "durationInDays": 29,
+                        "winnerIndex": 4
+                    }
+                ]
+            ],
+            [
+                [],
+                [],
+                [
+                    {
+                        "person": {
+                            "name": "Ghutartad",
+                            "birthday": "0",
+                            "age": 0
+                        }
+                    },
+                    {
+                        "belligerants": [
+                            {
+                                "name": "Ummtarhul",
+                                "climate": "tropical",
+                                "population": 1010457,
+                                "ruler": {
+                                    "name": "Asdohutag",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            },
+                            {
+                                "name": "Mosedmi",
+                                "climate": "tropical",
+                                "population": 4284460,
+                                "ruler": {
+                                    "name": "Hua",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            },
+                            {
+                                "name": "Tagsoromp",
+                                "climate": "temperate",
+                                "population": 3082365,
+                                "ruler": {
+                                    "name": "Sed",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            }
+                        ],
+                        "durationInDays": 121,
+                        "winnerIndex": 2
+                    }
+                ],
+                [
+                    {
+                        "person": {
+                            "name": "Hal",
+                            "birthday": "0",
+                            "age": 0
+                        }
+                    },
+                    {
+                        "person": {
+                            "name": "Sihal",
+                            "birthday": "0",
+                            "age": 0
+                        }
+                    }
+                ],
+                [],
+                [
+                    {
+                        "belligerants": [
+                            {
+                                "name": "Borkalkol",
+                                "climate": "tropical",
+                                "population": 5545256,
+                                "ruler": {
+                                    "name": "Ompulldesa",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            },
+                            {
+                                "name": "Ahapuutad",
+                                "climate": "temperate",
+                                "population": 1333074,
+                                "ruler": {
+                                    "name": "Lloarp",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            }
+                        ],
+                        "durationInDays": 286,
+                        "winnerIndex": 0
+                    },
+                    {
+                        "belligerants": [
+                            {
+                                "name": "Tagsoromp",
+                                "climate": "temperate",
+                                "population": 3082365,
+                                "ruler": {
+                                    "name": "Sed",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            },
+                            {
+                                "name": "Ahapuutad",
+                                "climate": "temperate",
+                                "population": 1333074,
+                                "ruler": {
+                                    "name": "Lloarp",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            },
+                            {
+                                "name": "Oll",
+                                "climate": "polar",
+                                "population": 4378265,
+                                "ruler": {
+                                    "name": "Abb",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            },
+                            {
+                                "name": "Borkalkol",
+                                "climate": "tropical",
+                                "population": 5545256,
+                                "ruler": {
+                                    "name": "Ompulldesa",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            }
+                        ],
+                        "durationInDays": 199,
+                        "winnerIndex": 1
+                    },
+                    {
+                        "belligerants": [
+                            {
+                                "name": "Ahapuutad",
+                                "climate": "temperate",
+                                "population": 1333074,
+                                "ruler": {
+                                    "name": "Lloarp",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            },
+                            {
+                                "name": "Borkalkol",
+                                "climate": "tropical",
+                                "population": 5545256,
+                                "ruler": {
+                                    "name": "Ompulldesa",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            },
+                            {
+                                "name": "Yorartoa",
+                                "climate": "dry",
+                                "population": 7672180,
+                                "ruler": {
+                                    "name": "Gonsarllo",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            },
+                            {
+                                "name": "Tagsoromp",
+                                "climate": "temperate",
+                                "population": 3082365,
+                                "ruler": {
+                                    "name": "Sed",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            }
+                        ],
+                        "durationInDays": 170,
+                        "winnerIndex": 0
+                    }
+                ],
+                [
+                    {
+                        "belligerants": [
+                            {
+                                "name": "Pelgonall",
+                                "climate": "polar",
+                                "population": 35221,
+                                "ruler": {
+                                    "name": "Opa",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            },
+                            {
+                                "name": "Sab",
+                                "climate": "dry",
+                                "population": 714765,
+                                "ruler": {
+                                    "name": "Plaghkal",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            }
+                        ],
+                        "durationInDays": 466,
+                        "winnerIndex": 1
+                    },
+                    {
+                        "belligerants": [
+                            {
+                                "name": "Gonahaumm",
+                                "climate": "tropical",
+                                "population": 7852978,
+                                "ruler": {
+                                    "name": "Ghuaghmo",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            },
+                            {
+                                "name": "Ummtarhul",
+                                "climate": "tropical",
+                                "population": 1010457,
+                                "ruler": {
+                                    "name": "Asdohutag",
+                                    "birthday": "0",
+                                    "age": 0
+                                }
+                            }
+                        ],
+                        "durationInDays": 483,
+                        "winnerIndex": 0
+                    }
+                ]
+            ]
+        ]
+    ],
+    "world": {
+        "nbOfRegions": 14,
+        "name": "Togoll",
+        "regions": [
+            {
+                "name": "Oll",
+                "climate": "polar",
+                "population": 4378265,
+                "ruler": {
+                    "name": "Abb",
+                    "birthday": "0",
+                    "age": 0
+                }
+            },
+            {
+                "name": "Ahapuutad",
+                "climate": "temperate",
+                "population": 1333074,
+                "ruler": {
+                    "name": "Lloarp",
+                    "birthday": "0",
+                    "age": 0
+                }
+            },
+            {
+                "name": "Mosedmi",
+                "climate": "tropical",
+                "population": 4284460,
+                "ruler": {
+                    "name": "Hua",
+                    "birthday": "0",
+                    "age": 0
+                }
+            },
+            {
+                "name": "Ummtarhul",
+                "climate": "tropical",
+                "population": 1010457,
+                "ruler": {
+                    "name": "Asdohutag",
+                    "birthday": "0",
+                    "age": 0
+                }
+            },
+            {
+                "name": "Yorartoa",
+                "climate": "dry",
+                "population": 7672180,
+                "ruler": {
+                    "name": "Gonsarllo",
+                    "birthday": "0",
+                    "age": 0
+                }
+            },
+            {
+                "name": "Tagsoromp",
+                "climate": "temperate",
+                "population": 3082365,
+                "ruler": {
+                    "name": "Sed",
+                    "birthday": "0",
+                    "age": 0
+                }
+            },
+            {
+                "name": "Ollpelmar",
+                "climate": "temperate",
+                "population": 377197,
+                "ruler": {
+                    "name": "Arp",
+                    "birthday": "0",
+                    "age": 0
+                }
+            },
+            {
+                "name": "Yiart",
+                "climate": "temperate",
+                "population": 6638277,
+                "ruler": {
+                    "name": "Mardikol",
+                    "birthday": "0",
+                    "age": 0
+                }
+            },
+            {
+                "name": "Pelgonall",
+                "climate": "polar",
+                "population": 35221,
+                "ruler": {
+                    "name": "Opa",
+                    "birthday": "0",
+                    "age": 0
+                }
+            },
+            {
+                "name": "Kalarnpia",
+                "climate": "dry",
+                "population": 6882045,
+                "ruler": {
+                    "name": "Arn",
+                    "birthday": "0",
+                    "age": 0
+                }
+            },
+            {
+                "name": "Gonahaumm",
+                "climate": "tropical",
+                "population": 7852978,
+                "ruler": {
+                    "name": "Ghuaghmo",
+                    "birthday": "0",
+                    "age": 0
+                }
+            },
+            {
+                "name": "Borkalkol",
+                "climate": "tropical",
+                "population": 5545256,
+                "ruler": {
+                    "name": "Ompulldesa",
+                    "birthday": "0",
+                    "age": 0
+                }
+            },
+            {
+                "name": "Sab",
+                "climate": "dry",
+                "population": 714765,
+                "ruler": {
+                    "name": "Plaghkal",
+                    "birthday": "0",
+                    "age": 0
+                }
+            },
+            {
+                "name": "Yar",
+                "climate": "tropical",
+                "population": 9961355,
+                "ruler": {
+                    "name": "Yar",
+                    "birthday": "0",
+                    "age": 0
+                }
+            }
+        ]
+    }
+}
