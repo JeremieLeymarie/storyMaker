@@ -18,6 +18,10 @@ export function parseCmd(cmd: string) {
         switch (CURRENT_PHASE) {
             case "REGION_LIST":
                 printer.printRegion(Number(cmd));
+                CURRENT_PHASE = "REGION_DETAILS";
+                break;
+            case "REGION_DETAILS":
+                printer.printPersonDetails(Number(cmd));
                 break;
         }
     }
@@ -25,10 +29,15 @@ export function parseCmd(cmd: string) {
 
 const cmds = [
     "save",
+    "back",
 ]
 
 function save() {
     saveWorld();
+}
+
+function back(){
+    printer.printWorld();
 }
 // function handlePhases(printer: Printer, arg: string) {
 //     switch (CURRENT_PHASE) {

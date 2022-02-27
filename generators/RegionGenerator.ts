@@ -7,13 +7,13 @@ import { ReignEnd } from "./events/ReignEnd";
 import { DateGenerator } from "./DateGenerator";
 
 export class Region {
-    id:number; 
+    id: number;
     name: string;
     climate: string;
     population: number;
     reigns: Reign[];
 
-    public constructor({regionId, lifespan}: RegionParams) {
+    public constructor({ regionId, lifespan }: RegionParams) {
         this.id = regionId;
         this.name = new Name({}).generateName();
         this.climate = this.generateClimate();
@@ -26,22 +26,21 @@ export class Region {
         return climates[Math.floor(Math.random() * climates.length)];
     }
 
-    private generateReigns(lifespan:number): Reign[] {
+    private generateReigns(lifespan: number): Reign[] {
         const reigns = [];
-        for (let years = 0; years < lifespan; years++) {
-            for (let months = 0; months < 12; months++) {
-                for (let days = 0; days < 30; days++) {
-                    const rulerId = people.length; 
-                    new Person(rulerId); 
+        for (let years = 0; years < lifespan - 1; years++) {
+            for (let months = 0; months < 11 && years < lifespan - 1; months++) {
+                for (let days = 0; days < 29 && years < lifespan - 1 && months < 12; days++) {
+                    const rulerId = people.length;
+                    new Person(rulerId);
                     const dateStart = new ReignStart({ year: years, month: months, day: days }, rulerId, this.id).date;
-                    const duration = DateGenerator.randomDate(1, 60); 
-                    const dateEnd = new ReignEnd(DateGenerator.addDates(dateStart, duration), rulerId, this.id).date;
-                    const reignObj: Reign = {
-                        rulerId,
-                        dateStart,
-                        dateEnd,
-                        duration,
-                    }
+                    const duration = DateGenerator.randomDate(1, 60);
+                    const end = DateGenerator.addDates(dateStart, duration);
+                    const dateEnd = end.year < 100 ? new ReignEnd(end, rulerId, this.id).date : false;
+                    const reignObj: Reign = { rulerId, dateStart, dateEnd, duration }
+                    years = end.year;
+                    months = end.month;
+                    days = end.day;
                     reigns.push(reignObj)
                 }
             }

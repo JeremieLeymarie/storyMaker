@@ -33,7 +33,7 @@ export interface EventDate {
 export interface Reign {
     rulerId: number,
     dateStart: EventDate,
-    dateEnd: EventDate,
+    dateEnd: EventDate|false,
     duration : EventDate, 
 }
 

@@ -12,8 +12,8 @@ global.CURRENT_PHASE = "REGION_LIST";
 
 function main(): void {
     global.people = [];
+    global.timeline = createEmptyTimeline(); 
     global.world = new World({});
-    global.timeline = []; 
     const printer = new Printer();
     printer.printWorld();
 
@@ -22,7 +22,8 @@ function main(): void {
     });
 }
 
-
-
+function createEmptyTimeline(){
+  return Array(100).fill(Array(12).fill(Array(30)));
+}
 
 main();

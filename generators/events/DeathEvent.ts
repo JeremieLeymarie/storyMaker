@@ -10,6 +10,8 @@ export class DeathEvent extends HistoricEvent {
         super();
         this.personId = personId;
         this.date = DateGenerator.generateTimeOfDeath(birth)
-        timeline[this.date.year][this.date.month][this.date.day] = this; 
+        if(this.date.year < 100){
+            timeline[this.date.year][this.date.month][this.date.day] = this; 
+        }
     }
 }

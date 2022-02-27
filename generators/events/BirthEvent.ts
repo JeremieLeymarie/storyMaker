@@ -1,6 +1,5 @@
 import { EventDate } from "../../types/interfaces";
 import { DateGenerator } from "../DateGenerator";
-import { Person } from "../PersonGenerator";
 import { HistoricEvent } from "./EventGenerator";
 
 export class BirthEvent extends HistoricEvent {
@@ -13,7 +12,4 @@ export class BirthEvent extends HistoricEvent {
         this.personId = personId;
         timeline[this.date.year][this.date.month][this.date.day] = this; 
     }
-
-   
-
 } 

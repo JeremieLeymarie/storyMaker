@@ -5,7 +5,7 @@ export abstract class DateGenerator {
     months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 
-    public static randomDate(min: number = 0, max: number = 100): EventDate {
+    public static randomDate(min: number = 0, max: number = 99): EventDate {
         return {
             year: getRandomNumberInRange(min, max),
             month: getRandomNumberInRange(0, 11),
