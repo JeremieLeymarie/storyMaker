@@ -5,12 +5,12 @@ import { HistoricEvent } from "./EventGenerator";
 export class BirthEvent extends HistoricEvent {
     personId: number;
     date: EventDate;
-    eventType="birth"
+    eventType = "birth"
 
     public constructor(personId: number) {
         super();
-        this.date = DateGenerator.randomDate(); 
+        this.date = DateGenerator.randomDate();
         this.personId = personId;
-        timeline[this.date.year][this.date.month][this.date.day] = this; 
+        timeline[this.date.year][this.date.month][this.date.day].push(this);
     }
 } 

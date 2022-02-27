@@ -10,7 +10,6 @@ const PHASES = [
 ];
 
 export function parseCmd(cmd: string) {
-
     if (cmds.includes(cmd)) {
         eval(cmd)();
     }

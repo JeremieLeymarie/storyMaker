@@ -32,11 +32,11 @@ export class Region {
             for (let months = 0; months < 11 && years < lifespan - 1; months++) {
                 for (let days = 0; days < 29 && years < lifespan - 1 && months < 11; days++) {
                     const rulerId = people.length;
-                    new Person(rulerId);
+                    new Person(rulerId, "ruler");
                     const dateStart = new ReignStart({ year: years, month: months, day: days }, rulerId, this.id).date;
                     const duration = DateGenerator.randomDate(1, 60);
                     const end = DateGenerator.addDates(dateStart, duration);
-                    const dateEnd = end.year < 100 ? new ReignEnd(end, rulerId, this.id).date : false;
+                    const dateEnd = end.year < lifespan ? new ReignEnd(end, rulerId, this.id).date : false;
                     const reignObj: Reign = { rulerId, dateStart, dateEnd, duration }
                     years = end.year;
                     months = end.month;

@@ -1,6 +1,6 @@
 declare global {
     var world : World; 
-    var timeline: Timeline; 
+    var timeline: any[][][][]; 
     var people : Person[];
     var CURRENT_PHASE : string, 
 }

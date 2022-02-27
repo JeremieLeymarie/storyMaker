@@ -16,6 +16,7 @@ In StoryMaker a person is made of :
 - a name 
 - a birth date
 - a death date 
+- a role (ex : "ruler")
 
 
 ## Events

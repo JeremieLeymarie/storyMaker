@@ -4,26 +4,40 @@ import * as readline from "readline";
 import { parseCmd } from "./cli/main";
 
 const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout
+  input: process.stdin,
+  output: process.stdout
 })
 
 global.CURRENT_PHASE = "REGION_LIST";
 
 function main(): void {
-    global.people = [];
-    global.timeline = createEmptyTimeline(); 
-    global.world = new World({});
-    const printer = new Printer();
-    printer.printWorld();
+  global.people = [];
+  global.timeline = createEmptyTimeline();
+  global.world = new World({ nbOfRegions: 1, lifeSpan: 100 });
+  const printer = new Printer();
+  // printer.printWorld();
 
-    rl.on("line", (line) => {
-      parseCmd(line);
-    });
+  rl.on("line", (line) => {
+    parseCmd(line);
+  });
 }
 
-function createEmptyTimeline(){
-  return Array(100).fill(Array(12).fill(Array(30)));
+function createEmptyTimeline() {
+  const arr = [];
+  const lifeSpan = 100;
+  for (let i = 0; i < lifeSpan; i++) {
+    const year = [];
+    for (let j = 0; j < 12; j++) {
+      const month = [];
+      for (let k = 0; k < 30; k++) {
+        month.push([]);
+      }
+      year.push(month);
+    }
+    arr.push(year);
+  }
+  return arr;
+  // return Array(100).fill(Array(12).fill(Array(30).fill([])));
 }
 
 main();
