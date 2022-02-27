@@ -5,6 +5,8 @@ import { DeathEventParams, EventDate } from "../../types/interfaces";
 export class DeathEvent extends HistoricEvent {
     personId: number;
     date : EventDate;
+    eventType = "death";
+
 
     public constructor({personId, birth}:DeathEventParams) {
         super();

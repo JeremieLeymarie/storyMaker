@@ -34,6 +34,8 @@ const cmds = [
 
 function save() {
     saveWorld();
+    saveTimeline(); 
+    console.log("Save successfull"); 
 }
 
 function back(){
@@ -52,9 +54,9 @@ function back(){
 
 
 function saveWorld() {
-    fs.writeFileSync(path.join(__dirname, "./data/world.json"), JSON.stringify(world));
+    fs.writeFileSync(path.join(__dirname, "../data/world.json"), JSON.stringify(world));
 }
 
 function saveTimeline() {
-    fs.writeFileSync(path.join(__dirname, "./data/timeline.json"), JSON.stringify(timeline));
+    fs.writeFileSync(path.join(__dirname, "../data/timeline.json"), JSON.stringify(timeline));
 }

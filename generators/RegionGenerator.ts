@@ -30,7 +30,7 @@ export class Region {
         const reigns = [];
         for (let years = 0; years < lifespan - 1; years++) {
             for (let months = 0; months < 11 && years < lifespan - 1; months++) {
-                for (let days = 0; days < 29 && years < lifespan - 1 && months < 12; days++) {
+                for (let days = 0; days < 29 && years < lifespan - 1 && months < 11; days++) {
                     const rulerId = people.length;
                     new Person(rulerId);
                     const dateStart = new ReignStart({ year: years, month: months, day: days }, rulerId, this.id).date;

@@ -4,6 +4,7 @@ export class ReignStart {
     date : EventDate; 
     rulerId :number; 
     regionId : number; 
+    eventType = "reignStart";
 
     constructor(date:EventDate, rulerId:number, regionId:number){
         this.date = date; 

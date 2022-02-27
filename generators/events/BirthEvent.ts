@@ -5,6 +5,7 @@ import { HistoricEvent } from "./EventGenerator";
 export class BirthEvent extends HistoricEvent {
     personId: number;
     date: EventDate;
+    eventType="birth"
 
     public constructor(personId: number) {
         super();
