@@ -32,7 +32,7 @@ export abstract class DateGenerator {
         }
         if (month > 11) {
             year++;
-            month -= 11;
+            month -= 12;
         }
         return { year, month, day };
     }

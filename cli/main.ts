@@ -1,6 +1,6 @@
+import clc from 'cli-color';
 import * as fs from 'fs';
 import * as path from 'path';
-import { EventDate } from '../types/interfaces';
 import { Printer } from './Printer';
 import { PersonPrinter } from './printers/PersonPrinter';
 const printer = new Printer();
