@@ -13,9 +13,10 @@ global.CURRENT_PHASE = "REGION_LIST";
 function main(): void {
   global.people = [];
   global.timeline = createEmptyTimeline();
-  global.world = new World({ nbOfRegions: 1, lifeSpan: 100 });
+  global.world = new World({ lifeSpan: 100 });
+  world.eventCount = getEventCount();
   const printer = new Printer();
-  // printer.printWorld();
+  printer.printWorld();
 
   rl.on("line", (line) => {
     parseCmd(line);
@@ -38,6 +39,18 @@ function createEmptyTimeline() {
   }
   return arr;
   // return Array(100).fill(Array(12).fill(Array(30).fill([])));
+}
+
+function getEventCount(): number {
+  let eventCount = 0;
+  timeline.forEach(y => {
+    y.forEach(m => {
+      m.forEach(d => {
+        eventCount += d.length;
+      });
+    });
+  });
+  return eventCount;
 }
 
 main();

@@ -1,4 +1,4 @@
-import { EventDate } from "../../types/interfaces";
+import { BirthDeathParams, EventDate } from "../../types/interfaces";
 import { DateGenerator } from "../DateGenerator";
 import { HistoricEvent } from "./EventGenerator";
 
@@ -7,10 +7,18 @@ export class BirthEvent extends HistoricEvent {
     date: EventDate;
     eventType = "birth"
 
-    public constructor(personId: number) {
+    public constructor({ personId, condition }: BirthDeathParams) {
         super();
-        this.date = DateGenerator.randomDate();
+        if (condition) {
+            this.date = DateGenerator.randomDate(condition.min, condition.max);
+        }
+        else {
+            this.date = DateGenerator.randomDate();
+        }
         this.personId = personId;
-        timeline[this.date.year][this.date.month][this.date.day].push(this);
+        const { year, month, day } = this.date;
+        if (year >= 0)
+            timeline[year][month][day].push(this);
+
     }
 } 

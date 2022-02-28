@@ -8,6 +8,7 @@ export class World {
     name: string;
     regions: Region[];
     lifeSpan: number;
+    eventCount?:number;
 
     constructor({ nbOfRegions = undefined, lifeSpan = 100 }: WorldGeneratorParams) {
         this.lifeSpan = lifeSpan;

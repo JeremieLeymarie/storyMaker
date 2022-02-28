@@ -36,4 +36,12 @@ export abstract class DateGenerator {
         }
         return { year, month, day };
     }
+
+    public static substractDates(a:EventDate, b:EventDate):EventDate{
+        let year = a.year - b.year; 
+        let month = Math.abs(a.month - b.month);
+        let day = Math.abs(a.day - b.day); 
+
+        return {year, month, day}
+    }
 }

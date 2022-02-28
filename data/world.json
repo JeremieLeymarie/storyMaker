@@ -1,1 +1,3300 @@
-{"lifeSpan":100,"nbOfRegions":1,"name":"Nna","regions":[{"id":0,"name":"Pluyorall","climate":"continental","population":6709494,"reigns":[{"rulerId":0,"dateStart":{"year":0,"month":0,"day":0},"dateEnd":{"year":49,"month":5,"day":25},"duration":{"year":49,"month":5,"day":25}},{"rulerId":1,"dateStart":{"year":49,"month":5,"day":26},"dateEnd":{"year":63,"month":6,"day":10},"duration":{"year":14,"month":0,"day":13}},{"rulerId":2,"dateStart":{"year":63,"month":6,"day":11},"dateEnd":{"year":72,"month":6,"day":3},"duration":{"year":8,"month":10,"day":21}},{"rulerId":3,"dateStart":{"year":72,"month":6,"day":4},"dateEnd":{"year":74,"month":2,"day":25},"duration":{"year":1,"month":7,"day":21}},{"rulerId":4,"dateStart":{"year":74,"month":2,"day":26},"dateEnd":false,"duration":{"year":36,"month":10,"day":10}}]}]}
+{
+    "lifeSpan": 100,
+    "nbOfRegions": 47,
+    "name": "Pliyuupek",
+    "regions": [
+        {
+            "id": 0,
+            "name": "Sir",
+            "climate": "temperate",
+            "population": 864285,
+            "reigns": [
+                {
+                    "rulerId": 0,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 46,
+                        "month": 7,
+                        "day": 8
+                    },
+                    "duration": {
+                        "year": 46,
+                        "month": 7,
+                        "day": 8
+                    }
+                },
+                {
+                    "rulerId": 1,
+                    "dateStart": {
+                        "year": 46,
+                        "month": 7,
+                        "day": 9
+                    },
+                    "dateEnd": {
+                        "year": 85,
+                        "month": 8,
+                        "day": 19
+                    },
+                    "duration": {
+                        "year": 39,
+                        "month": 1,
+                        "day": 10
+                    }
+                },
+                {
+                    "rulerId": 2,
+                    "dateStart": {
+                        "year": 85,
+                        "month": 8,
+                        "day": 20
+                    },
+                    "dateEnd": {
+                        "year": 89,
+                        "month": 11,
+                        "day": 4
+                    },
+                    "duration": {
+                        "year": 4,
+                        "month": 2,
+                        "day": 13
+                    }
+                },
+                {
+                    "rulerId": 3,
+                    "dateStart": {
+                        "year": 90,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": false,
+                    "duration": {
+                        "year": 57,
+                        "month": 0,
+                        "day": 28
+                    }
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "Kiltar",
+            "climate": "continental",
+            "population": 5090149,
+            "reigns": [
+                {
+                    "rulerId": 4,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 56,
+                        "month": 4,
+                        "day": 23
+                    },
+                    "duration": {
+                        "year": 56,
+                        "month": 4,
+                        "day": 23
+                    }
+                },
+                {
+                    "rulerId": 5,
+                    "dateStart": {
+                        "year": 56,
+                        "month": 4,
+                        "day": 24
+                    },
+                    "dateEnd": {
+                        "year": 89,
+                        "month": 3,
+                        "day": 21
+                    },
+                    "duration": {
+                        "year": 32,
+                        "month": 9,
+                        "day": 26
+                    }
+                },
+                {
+                    "rulerId": 6,
+                    "dateStart": {
+                        "year": 89,
+                        "month": 3,
+                        "day": 22
+                    },
+                    "dateEnd": false,
+                    "duration": {
+                        "year": 52,
+                        "month": 3,
+                        "day": 28
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Soryuuamm",
+            "climate": "tropical",
+            "population": 6189918,
+            "reigns": [
+                {
+                    "rulerId": 7,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 44,
+                        "month": 4,
+                        "day": 14
+                    },
+                    "duration": {
+                        "year": 44,
+                        "month": 4,
+                        "day": 14
+                    }
+                },
+                {
+                    "rulerId": 8,
+                    "dateStart": {
+                        "year": 44,
+                        "month": 4,
+                        "day": 15
+                    },
+                    "dateEnd": {
+                        "year": 98,
+                        "month": 3,
+                        "day": 4
+                    },
+                    "duration": {
+                        "year": 53,
+                        "month": 9,
+                        "day": 18
+                    }
+                },
+                {
+                    "rulerId": 9,
+                    "dateStart": {
+                        "year": 98,
+                        "month": 3,
+                        "day": 5
+                    },
+                    "dateEnd": false,
+                    "duration": {
+                        "year": 60,
+                        "month": 4,
+                        "day": 3
+                    }
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Arilo",
+            "climate": "continental",
+            "population": 109538,
+            "reigns": [
+                {
+                    "rulerId": 10,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 50,
+                        "month": 1,
+                        "day": 24
+                    },
+                    "duration": {
+                        "year": 50,
+                        "month": 1,
+                        "day": 24
+                    }
+                },
+                {
+                    "rulerId": 11,
+                    "dateStart": {
+                        "year": 50,
+                        "month": 1,
+                        "day": 25
+                    },
+                    "dateEnd": {
+                        "year": 53,
+                        "month": 3,
+                        "day": 24
+                    },
+                    "duration": {
+                        "year": 3,
+                        "month": 1,
+                        "day": 28
+                    }
+                },
+                {
+                    "rulerId": 12,
+                    "dateStart": {
+                        "year": 53,
+                        "month": 3,
+                        "day": 25
+                    },
+                    "dateEnd": {
+                        "year": 84,
+                        "month": 9,
+                        "day": 5
+                    },
+                    "duration": {
+                        "year": 31,
+                        "month": 5,
+                        "day": 9
+                    }
+                },
+                {
+                    "rulerId": 13,
+                    "dateStart": {
+                        "year": 84,
+                        "month": 9,
+                        "day": 6
+                    },
+                    "dateEnd": false,
+                    "duration": {
+                        "year": 37,
+                        "month": 4,
+                        "day": 21
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Sed",
+            "climate": "dry",
+            "population": 2939477,
+            "reigns": [
+                {
+                    "rulerId": 14,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 31,
+                        "month": 0,
+                        "day": 15
+                    },
+                    "duration": {
+                        "year": 31,
+                        "month": 0,
+                        "day": 15
+                    }
+                },
+                {
+                    "rulerId": 15,
+                    "dateStart": {
+                        "year": 31,
+                        "month": 0,
+                        "day": 16
+                    },
+                    "dateEnd": {
+                        "year": 72,
+                        "month": 6,
+                        "day": 24
+                    },
+                    "duration": {
+                        "year": 41,
+                        "month": 6,
+                        "day": 8
+                    }
+                },
+                {
+                    "rulerId": 16,
+                    "dateStart": {
+                        "year": 72,
+                        "month": 6,
+                        "day": 25
+                    },
+                    "dateEnd": {
+                        "year": 94,
+                        "month": 4,
+                        "day": 6
+                    },
+                    "duration": {
+                        "year": 21,
+                        "month": 8,
+                        "day": 10
+                    }
+                },
+                {
+                    "rulerId": 17,
+                    "dateStart": {
+                        "year": 94,
+                        "month": 4,
+                        "day": 7
+                    },
+                    "dateEnd": false,
+                    "duration": {
+                        "year": 54,
+                        "month": 10,
+                        "day": 5
+                    }
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Desa",
+            "climate": "dry",
+            "population": 1939409,
+            "reigns": [
+                {
+                    "rulerId": 18,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 18,
+                        "month": 9,
+                        "day": 4
+                    },
+                    "duration": {
+                        "year": 18,
+                        "month": 9,
+                        "day": 4
+                    }
+                },
+                {
+                    "rulerId": 19,
+                    "dateStart": {
+                        "year": 18,
+                        "month": 9,
+                        "day": 5
+                    },
+                    "dateEnd": {
+                        "year": 41,
+                        "month": 8,
+                        "day": 13
+                    },
+                    "duration": {
+                        "year": 22,
+                        "month": 10,
+                        "day": 8
+                    }
+                },
+                {
+                    "rulerId": 20,
+                    "dateStart": {
+                        "year": 41,
+                        "month": 8,
+                        "day": 14
+                    },
+                    "dateEnd": {
+                        "year": 66,
+                        "month": 10,
+                        "day": 7
+                    },
+                    "duration": {
+                        "year": 25,
+                        "month": 1,
+                        "day": 22
+                    }
+                },
+                {
+                    "rulerId": 21,
+                    "dateStart": {
+                        "year": 66,
+                        "month": 10,
+                        "day": 8
+                    },
+                    "dateEnd": {
+                        "year": 88,
+                        "month": 5,
+                        "day": 1
+                    },
+                    "duration": {
+                        "year": 21,
+                        "month": 5,
+                        "day": 22
+                    }
+                },
+                {
+                    "rulerId": 22,
+                    "dateStart": {
+                        "year": 88,
+                        "month": 5,
+                        "day": 2
+                    },
+                    "dateEnd": false,
+                    "duration": {
+                        "year": 48,
+                        "month": 6,
+                        "day": 29
+                    }
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Kol",
+            "climate": "dry",
+            "population": 7129515,
+            "reigns": [
+                {
+                    "rulerId": 23,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 7,
+                        "month": 8,
+                        "day": 25
+                    },
+                    "duration": {
+                        "year": 7,
+                        "month": 8,
+                        "day": 25
+                    }
+                },
+                {
+                    "rulerId": 24,
+                    "dateStart": {
+                        "year": 7,
+                        "month": 8,
+                        "day": 26
+                    },
+                    "dateEnd": {
+                        "year": 40,
+                        "month": 3,
+                        "day": 25
+                    },
+                    "duration": {
+                        "year": 32,
+                        "month": 5,
+                        "day": 28
+                    }
+                },
+                {
+                    "rulerId": 25,
+                    "dateStart": {
+                        "year": 40,
+                        "month": 3,
+                        "day": 26
+                    },
+                    "dateEnd": {
+                        "year": 82,
+                        "month": 1,
+                        "day": 23
+                    },
+                    "duration": {
+                        "year": 41,
+                        "month": 8,
+                        "day": 26
+                    }
+                },
+                {
+                    "rulerId": 26,
+                    "dateStart": {
+                        "year": 82,
+                        "month": 1,
+                        "day": 24
+                    },
+                    "dateEnd": false,
+                    "duration": {
+                        "year": 40,
+                        "month": 10,
+                        "day": 1
+                    }
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Led",
+            "climate": "continental",
+            "population": 1643272,
+            "reigns": [
+                {
+                    "rulerId": 27,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 3,
+                        "month": 6,
+                        "day": 27
+                    },
+                    "duration": {
+                        "year": 3,
+                        "month": 6,
+                        "day": 27
+                    }
+                },
+                {
+                    "rulerId": 28,
+                    "dateStart": {
+                        "year": 3,
+                        "month": 6,
+                        "day": 28
+                    },
+                    "dateEnd": {
+                        "year": 48,
+                        "month": 7,
+                        "day": 22
+                    },
+                    "duration": {
+                        "year": 44,
+                        "month": 11,
+                        "day": 23
+                    }
+                },
+                {
+                    "rulerId": 29,
+                    "dateStart": {
+                        "year": 48,
+                        "month": 7,
+                        "day": 23
+                    },
+                    "dateEnd": {
+                        "year": 95,
+                        "month": 5,
+                        "day": 11
+                    },
+                    "duration": {
+                        "year": 46,
+                        "month": 8,
+                        "day": 17
+                    }
+                },
+                {
+                    "rulerId": 30,
+                    "dateStart": {
+                        "year": 95,
+                        "month": 5,
+                        "day": 12
+                    },
+                    "dateEnd": false,
+                    "duration": {
+                        "year": 18,
+                        "month": 2,
+                        "day": 16
+                    }
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Yuunot",
+            "climate": "polar",
+            "population": 5075658,
+            "reigns": [
+                {
+                    "rulerId": 31,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 29,
+                        "month": 0,
+                        "day": 10
+                    },
+                    "duration": {
+                        "year": 29,
+                        "month": 0,
+                        "day": 10
+                    }
+                },
+                {
+                    "rulerId": 32,
+                    "dateStart": {
+                        "year": 29,
+                        "month": 0,
+                        "day": 11
+                    },
+                    "dateEnd": {
+                        "year": 49,
+                        "month": 5,
+                        "day": 2
+                    },
+                    "duration": {
+                        "year": 20,
+                        "month": 4,
+                        "day": 20
+                    }
+                },
+                {
+                    "rulerId": 33,
+                    "dateStart": {
+                        "year": 49,
+                        "month": 5,
+                        "day": 3
+                    },
+                    "dateEnd": {
+                        "year": 55,
+                        "month": 1,
+                        "day": 28
+                    },
+                    "duration": {
+                        "year": 5,
+                        "month": 7,
+                        "day": 25
+                    }
+                },
+                {
+                    "rulerId": 34,
+                    "dateStart": {
+                        "year": 55,
+                        "month": 2,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 83,
+                        "month": 10,
+                        "day": 5
+                    },
+                    "duration": {
+                        "year": 28,
+                        "month": 8,
+                        "day": 5
+                    }
+                },
+                {
+                    "rulerId": 35,
+                    "dateStart": {
+                        "year": 83,
+                        "month": 10,
+                        "day": 6
+                    },
+                    "dateEnd": false,
+                    "duration": {
+                        "year": 27,
+                        "month": 6,
+                        "day": 7
+                    }
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Ssonoa",
+            "climate": "temperate",
+            "population": 2288045,
+            "reigns": [
+                {
+                    "rulerId": 36,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 36,
+                        "month": 1,
+                        "day": 9
+                    },
+                    "duration": {
+                        "year": 36,
+                        "month": 1,
+                        "day": 9
+                    }
+                },
+                {
+                    "rulerId": 37,
+                    "dateStart": {
+                        "year": 36,
+                        "month": 1,
+                        "day": 10
+                    },
+                    "dateEnd": {
+                        "year": 65,
+                        "month": 6,
+                        "day": 16
+                    },
+                    "duration": {
+                        "year": 29,
+                        "month": 5,
+                        "day": 6
+                    }
+                },
+                {
+                    "rulerId": 38,
+                    "dateStart": {
+                        "year": 65,
+                        "month": 6,
+                        "day": 17
+                    },
+                    "dateEnd": {
+                        "year": 75,
+                        "month": 7,
+                        "day": 8
+                    },
+                    "duration": {
+                        "year": 10,
+                        "month": 0,
+                        "day": 20
+                    }
+                },
+                {
+                    "rulerId": 39,
+                    "dateStart": {
+                        "year": 75,
+                        "month": 7,
+                        "day": 9
+                    },
+                    "dateEnd": false,
+                    "duration": {
+                        "year": 55,
+                        "month": 3,
+                        "day": 19
+                    }
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Ohrdoaha",
+            "climate": "temperate",
+            "population": 3728681,
+            "reigns": [
+                {
+                    "rulerId": 40,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 4,
+                        "month": 2,
+                        "day": 4
+                    },
+                    "duration": {
+                        "year": 4,
+                        "month": 2,
+                        "day": 4
+                    }
+                },
+                {
+                    "rulerId": 41,
+                    "dateStart": {
+                        "year": 4,
+                        "month": 2,
+                        "day": 5
+                    },
+                    "dateEnd": {
+                        "year": 64,
+                        "month": 2,
+                        "day": 26
+                    },
+                    "duration": {
+                        "year": 60,
+                        "month": 0,
+                        "day": 21
+                    }
+                },
+                {
+                    "rulerId": 42,
+                    "dateStart": {
+                        "year": 64,
+                        "month": 2,
+                        "day": 27
+                    },
+                    "dateEnd": {
+                        "year": 65,
+                        "month": 10,
+                        "day": 19
+                    },
+                    "duration": {
+                        "year": 1,
+                        "month": 7,
+                        "day": 21
+                    }
+                },
+                {
+                    "rulerId": 43,
+                    "dateStart": {
+                        "year": 65,
+                        "month": 10,
+                        "day": 20
+                    },
+                    "dateEnd": false,
+                    "duration": {
+                        "year": 56,
+                        "month": 7,
+                        "day": 7
+                    }
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Ahinoraol",
+            "climate": "dry",
+            "population": 3167424,
+            "reigns": [
+                {
+                    "rulerId": 44,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 45,
+                        "month": 5,
+                        "day": 27
+                    },
+                    "duration": {
+                        "year": 45,
+                        "month": 5,
+                        "day": 27
+                    }
+                },
+                {
+                    "rulerId": 45,
+                    "dateStart": {
+                        "year": 45,
+                        "month": 5,
+                        "day": 28
+                    },
+                    "dateEnd": {
+                        "year": 81,
+                        "month": 8,
+                        "day": 7
+                    },
+                    "duration": {
+                        "year": 36,
+                        "month": 2,
+                        "day": 8
+                    }
+                },
+                {
+                    "rulerId": 46,
+                    "dateStart": {
+                        "year": 81,
+                        "month": 8,
+                        "day": 8
+                    },
+                    "dateEnd": false,
+                    "duration": {
+                        "year": 35,
+                        "month": 2,
+                        "day": 6
+                    }
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Huaabb",
+            "climate": "temperate",
+            "population": 6230851,
+            "reigns": [
+                {
+                    "rulerId": 47,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 22,
+                        "month": 11,
+                        "day": 25
+                    },
+                    "duration": {
+                        "year": 22,
+                        "month": 11,
+                        "day": 25
+                    }
+                },
+                {
+                    "rulerId": 48,
+                    "dateStart": {
+                        "year": 23,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 42,
+                        "month": 4,
+                        "day": 16
+                    },
+                    "duration": {
+                        "year": 19,
+                        "month": 4,
+                        "day": 16
+                    }
+                },
+                {
+                    "rulerId": 49,
+                    "dateStart": {
+                        "year": 42,
+                        "month": 4,
+                        "day": 17
+                    },
+                    "dateEnd": {
+                        "year": 83,
+                        "month": 8,
+                        "day": 15
+                    },
+                    "duration": {
+                        "year": 41,
+                        "month": 3,
+                        "day": 27
+                    }
+                },
+                {
+                    "rulerId": 50,
+                    "dateStart": {
+                        "year": 83,
+                        "month": 8,
+                        "day": 16
+                    },
+                    "dateEnd": {
+                        "year": 89,
+                        "month": 8,
+                        "day": 24
+                    },
+                    "duration": {
+                        "year": 5,
+                        "month": 11,
+                        "day": 8
+                    }
+                },
+                {
+                    "rulerId": 51,
+                    "dateStart": {
+                        "year": 89,
+                        "month": 8,
+                        "day": 25
+                    },
+                    "dateEnd": false,
+                    "duration": {
+                        "year": 28,
+                        "month": 3,
+                        "day": 17
+                    }
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Eke",
+            "climate": "tropical",
+            "population": 9813532,
+            "reigns": [
+                {
+                    "rulerId": 52,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 22,
+                        "month": 8,
+                        "day": 1
+                    },
+                    "duration": {
+                        "year": 22,
+                        "month": 8,
+                        "day": 1
+                    }
+                },
+                {
+                    "rulerId": 53,
+                    "dateStart": {
+                        "year": 22,
+                        "month": 8,
+                        "day": 2
+                    },
+                    "dateEnd": {
+                        "year": 26,
+                        "month": 8,
+                        "day": 25
+                    },
+                    "duration": {
+                        "year": 4,
+                        "month": 0,
+                        "day": 23
+                    }
+                },
+                {
+                    "rulerId": 54,
+                    "dateStart": {
+                        "year": 26,
+                        "month": 8,
+                        "day": 26
+                    },
+                    "dateEnd": {
+                        "year": 47,
+                        "month": 10,
+                        "day": 17
+                    },
+                    "duration": {
+                        "year": 21,
+                        "month": 1,
+                        "day": 20
+                    }
+                },
+                {
+                    "rulerId": 55,
+                    "dateStart": {
+                        "year": 47,
+                        "month": 10,
+                        "day": 18
+                    },
+                    "dateEnd": {
+                        "year": 77,
+                        "month": 11,
+                        "day": 16
+                    },
+                    "duration": {
+                        "year": 29,
+                        "month": 11,
+                        "day": 27
+                    }
+                },
+                {
+                    "rulerId": 56,
+                    "dateStart": {
+                        "year": 78,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 86,
+                        "month": 9,
+                        "day": 12
+                    },
+                    "duration": {
+                        "year": 8,
+                        "month": 9,
+                        "day": 12
+                    }
+                },
+                {
+                    "rulerId": 57,
+                    "dateStart": {
+                        "year": 86,
+                        "month": 9,
+                        "day": 13
+                    },
+                    "dateEnd": false,
+                    "duration": {
+                        "year": 18,
+                        "month": 3,
+                        "day": 8
+                    }
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Siplakal",
+            "climate": "continental",
+            "population": 9242781,
+            "reigns": [
+                {
+                    "rulerId": 58,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 5,
+                        "month": 8,
+                        "day": 13
+                    },
+                    "duration": {
+                        "year": 5,
+                        "month": 8,
+                        "day": 13
+                    }
+                },
+                {
+                    "rulerId": 59,
+                    "dateStart": {
+                        "year": 5,
+                        "month": 8,
+                        "day": 14
+                    },
+                    "dateEnd": {
+                        "year": 42,
+                        "month": 6,
+                        "day": 4
+                    },
+                    "duration": {
+                        "year": 36,
+                        "month": 8,
+                        "day": 19
+                    }
+                },
+                {
+                    "rulerId": 60,
+                    "dateStart": {
+                        "year": 42,
+                        "month": 6,
+                        "day": 5
+                    },
+                    "dateEnd": false,
+                    "duration": {
+                        "year": 58,
+                        "month": 8,
+                        "day": 13
+                    }
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Ahrhulnor",
+            "climate": "continental",
+            "population": 6248878,
+            "reigns": [
+                {
+                    "rulerId": 61,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 1,
+                        "month": 4,
+                        "day": 17
+                    },
+                    "duration": {
+                        "year": 1,
+                        "month": 4,
+                        "day": 17
+                    }
+                },
+                {
+                    "rulerId": 62,
+                    "dateStart": {
+                        "year": 1,
+                        "month": 4,
+                        "day": 18
+                    },
+                    "dateEnd": {
+                        "year": 23,
+                        "month": 10,
+                        "day": 24
+                    },
+                    "duration": {
+                        "year": 22,
+                        "month": 6,
+                        "day": 6
+                    }
+                },
+                {
+                    "rulerId": 63,
+                    "dateStart": {
+                        "year": 23,
+                        "month": 10,
+                        "day": 25
+                    },
+                    "dateEnd": {
+                        "year": 47,
+                        "month": 11,
+                        "day": 5
+                    },
+                    "duration": {
+                        "year": 24,
+                        "month": 0,
+                        "day": 9
+                    }
+                },
+                {
+                    "rulerId": 64,
+                    "dateStart": {
+                        "year": 48,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 75,
+                        "month": 7,
+                        "day": 7
+                    },
+                    "duration": {
+                        "year": 27,
+                        "month": 7,
+                        "day": 7
+                    }
+                },
+                {
+                    "rulerId": 65,
+                    "dateStart": {
+                        "year": 75,
+                        "month": 7,
+                        "day": 8
+                    },
+                    "dateEnd": false,
+                    "duration": {
+                        "year": 55,
+                        "month": 8,
+                        "day": 9
+                    }
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "name": "Pelohr",
+            "climate": "temperate",
+            "population": 248178,
+            "reigns": [
+                {
+                    "rulerId": 66,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 12,
+                        "month": 2,
+                        "day": 15
+                    },
+                    "duration": {
+                        "year": 12,
+                        "month": 2,
+                        "day": 15
+                    }
+                },
+                {
+                    "rulerId": 67,
+                    "dateStart": {
+                        "year": 12,
+                        "month": 2,
+                        "day": 16
+                    },
+                    "dateEnd": {
+                        "year": 69,
+                        "month": 9,
+                        "day": 2
+                    },
+                    "duration": {
+                        "year": 57,
+                        "month": 6,
+                        "day": 15
+                    }
+                },
+                {
+                    "rulerId": 68,
+                    "dateStart": {
+                        "year": 69,
+                        "month": 9,
+                        "day": 3
+                    },
+                    "dateEnd": false,
+                    "duration": {
+                        "year": 35,
+                        "month": 10,
+                        "day": 21
+                    }
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "name": "Farfurmol",
+            "climate": "continental",
+            "population": 5792072,
+            "reigns": [
+                {
+                    "rulerId": 69,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 3,
+                        "month": 3,
+                        "day": 2
+                    },
+                    "duration": {
+                        "year": 3,
+                        "month": 3,
+                        "day": 2
+                    }
+                },
+                {
+                    "rulerId": 70,
+                    "dateStart": {
+                        "year": 3,
+                        "month": 3,
+                        "day": 3
+                    },
+                    "dateEnd": {
+                        "year": 63,
+                        "month": 9,
+                        "day": 13
+                    },
+                    "duration": {
+                        "year": 60,
+                        "month": 6,
+                        "day": 10
+                    }
+                },
+                {
+                    "rulerId": 71,
+                    "dateStart": {
+                        "year": 63,
+                        "month": 9,
+                        "day": 14
+                    },
+                    "dateEnd": {
+                        "year": 87,
+                        "month": 1,
+                        "day": 22
+                    },
+                    "duration": {
+                        "year": 23,
+                        "month": 3,
+                        "day": 8
+                    }
+                },
+                {
+                    "rulerId": 72,
+                    "dateStart": {
+                        "year": 87,
+                        "month": 1,
+                        "day": 23
+                    },
+                    "dateEnd": false,
+                    "duration": {
+                        "year": 56,
+                        "month": 7,
+                        "day": 1
+                    }
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "name": "Arn",
+            "climate": "tropical",
+            "population": 1407279,
+            "reigns": [
+                {
+                    "rulerId": 73,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 31,
+                        "month": 4,
+                        "day": 25
+                    },
+                    "duration": {
+                        "year": 31,
+                        "month": 4,
+                        "day": 25
+                    }
+                },
+                {
+                    "rulerId": 74,
+                    "dateStart": {
+                        "year": 31,
+                        "month": 4,
+                        "day": 26
+                    },
+                    "dateEnd": {
+                        "year": 75,
+                        "month": 2,
+                        "day": 6
+                    },
+                    "duration": {
+                        "year": 43,
+                        "month": 8,
+                        "day": 9
+                    }
+                },
+                {
+                    "rulerId": 75,
+                    "dateStart": {
+                        "year": 75,
+                        "month": 2,
+                        "day": 7
+                    },
+                    "dateEnd": false,
+                    "duration": {
+                        "year": 25,
+                        "month": 4,
+                        "day": 10
+                    }
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "name": "Tintag",
+            "climate": "temperate",
+            "population": 9991825,
+            "reigns": [
+                {
+                    "rulerId": 76,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 18,
+                        "month": 7,
+                        "day": 15
+                    },
+                    "duration": {
+                        "year": 18,
+                        "month": 7,
+                        "day": 15
+                    }
+                },
+                {
+                    "rulerId": 77,
+                    "dateStart": {
+                        "year": 18,
+                        "month": 7,
+                        "day": 16
+                    },
+                    "dateEnd": {
+                        "year": 52,
+                        "month": 5,
+                        "day": 26
+                    },
+                    "duration": {
+                        "year": 33,
+                        "month": 9,
+                        "day": 10
+                    }
+                },
+                {
+                    "rulerId": 78,
+                    "dateStart": {
+                        "year": 52,
+                        "month": 5,
+                        "day": 27
+                    },
+                    "dateEnd": false,
+                    "duration": {
+                        "year": 53,
+                        "month": 0,
+                        "day": 18
+                    }
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "name": "Sorotdel",
+            "climate": "temperate",
+            "population": 2665577,
+            "reigns": [
+                {
+                    "rulerId": 79,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 42,
+                        "month": 4,
+                        "day": 26
+                    },
+                    "duration": {
+                        "year": 42,
+                        "month": 4,
+                        "day": 26
+                    }
+                },
+                {
+                    "rulerId": 80,
+                    "dateStart": {
+                        "year": 42,
+                        "month": 4,
+                        "day": 27
+                    },
+                    "dateEnd": {
+                        "year": 97,
+                        "month": 10,
+                        "day": 6
+                    },
+                    "duration": {
+                        "year": 55,
+                        "month": 5,
+                        "day": 8
+                    }
+                },
+                {
+                    "rulerId": 81,
+                    "dateStart": {
+                        "year": 97,
+                        "month": 10,
+                        "day": 7
+                    },
+                    "dateEnd": false,
+                    "duration": {
+                        "year": 59,
+                        "month": 7,
+                        "day": 10
+                    }
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "name": "Puaomp",
+            "climate": "temperate",
+            "population": 8500922,
+            "reigns": [
+                {
+                    "rulerId": 82,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 5,
+                        "month": 3,
+                        "day": 10
+                    },
+                    "duration": {
+                        "year": 5,
+                        "month": 3,
+                        "day": 10
+                    }
+                },
+                {
+                    "rulerId": 83,
+                    "dateStart": {
+                        "year": 5,
+                        "month": 3,
+                        "day": 11
+                    },
+                    "dateEnd": {
+                        "year": 60,
+                        "month": 1,
+                        "day": 4
+                    },
+                    "duration": {
+                        "year": 54,
+                        "month": 8,
+                        "day": 22
+                    }
+                },
+                {
+                    "rulerId": 84,
+                    "dateStart": {
+                        "year": 60,
+                        "month": 1,
+                        "day": 5
+                    },
+                    "dateEnd": {
+                        "year": 78,
+                        "month": 8,
+                        "day": 5
+                    },
+                    "duration": {
+                        "year": 18,
+                        "month": 6,
+                        "day": 29
+                    }
+                },
+                {
+                    "rulerId": 85,
+                    "dateStart": {
+                        "year": 78,
+                        "month": 8,
+                        "day": 6
+                    },
+                    "dateEnd": false,
+                    "duration": {
+                        "year": 55,
+                        "month": 1,
+                        "day": 2
+                    }
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "name": "Mal",
+            "climate": "continental",
+            "population": 7976282,
+            "reigns": [
+                {
+                    "rulerId": 86,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 60,
+                        "month": 2,
+                        "day": 12
+                    },
+                    "duration": {
+                        "year": 60,
+                        "month": 2,
+                        "day": 12
+                    }
+                },
+                {
+                    "rulerId": 87,
+                    "dateStart": {
+                        "year": 60,
+                        "month": 2,
+                        "day": 13
+                    },
+                    "dateEnd": {
+                        "year": 80,
+                        "month": 3,
+                        "day": 3
+                    },
+                    "duration": {
+                        "year": 20,
+                        "month": 0,
+                        "day": 19
+                    }
+                },
+                {
+                    "rulerId": 88,
+                    "dateStart": {
+                        "year": 80,
+                        "month": 3,
+                        "day": 4
+                    },
+                    "dateEnd": false,
+                    "duration": {
+                        "year": 27,
+                        "month": 6,
+                        "day": 11
+                    }
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "name": "Tyutinled",
+            "climate": "continental",
+            "population": 6141304,
+            "reigns": [
+                {
+                    "rulerId": 89,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 2,
+                        "month": 7,
+                        "day": 14
+                    },
+                    "duration": {
+                        "year": 2,
+                        "month": 7,
+                        "day": 14
+                    }
+                },
+                {
+                    "rulerId": 90,
+                    "dateStart": {
+                        "year": 2,
+                        "month": 7,
+                        "day": 15
+                    },
+                    "dateEnd": {
+                        "year": 36,
+                        "month": 3,
+                        "day": 16
+                    },
+                    "duration": {
+                        "year": 33,
+                        "month": 7,
+                        "day": 1
+                    }
+                },
+                {
+                    "rulerId": 91,
+                    "dateStart": {
+                        "year": 36,
+                        "month": 3,
+                        "day": 17
+                    },
+                    "dateEnd": {
+                        "year": 63,
+                        "month": 4,
+                        "day": 12
+                    },
+                    "duration": {
+                        "year": 27,
+                        "month": 0,
+                        "day": 24
+                    }
+                },
+                {
+                    "rulerId": 92,
+                    "dateStart": {
+                        "year": 63,
+                        "month": 4,
+                        "day": 13
+                    },
+                    "dateEnd": {
+                        "year": 71,
+                        "month": 3,
+                        "day": 7
+                    },
+                    "duration": {
+                        "year": 7,
+                        "month": 9,
+                        "day": 23
+                    }
+                },
+                {
+                    "rulerId": 93,
+                    "dateStart": {
+                        "year": 71,
+                        "month": 3,
+                        "day": 8
+                    },
+                    "dateEnd": false,
+                    "duration": {
+                        "year": 49,
+                        "month": 9,
+                        "day": 7
+                    }
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "name": "Peksir",
+            "climate": "dry",
+            "population": 2670263,
+            "reigns": [
+                {
+                    "rulerId": 94,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 6,
+                        "month": 1,
+                        "day": 22
+                    },
+                    "duration": {
+                        "year": 6,
+                        "month": 1,
+                        "day": 22
+                    }
+                },
+                {
+                    "rulerId": 95,
+                    "dateStart": {
+                        "year": 6,
+                        "month": 1,
+                        "day": 23
+                    },
+                    "dateEnd": {
+                        "year": 48,
+                        "month": 1,
+                        "day": 23
+                    },
+                    "duration": {
+                        "year": 41,
+                        "month": 10,
+                        "day": 29
+                    }
+                },
+                {
+                    "rulerId": 96,
+                    "dateStart": {
+                        "year": 48,
+                        "month": 1,
+                        "day": 24
+                    },
+                    "dateEnd": {
+                        "year": 99,
+                        "month": 10,
+                        "day": 24
+                    },
+                    "duration": {
+                        "year": 51,
+                        "month": 9,
+                        "day": 0
+                    }
+                }
+            ]
+        },
+        {
+            "id": 25,
+            "name": "Noteke",
+            "climate": "polar",
+            "population": 5706853,
+            "reigns": [
+                {
+                    "rulerId": 97,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 16,
+                        "month": 0,
+                        "day": 21
+                    },
+                    "duration": {
+                        "year": 16,
+                        "month": 0,
+                        "day": 21
+                    }
+                },
+                {
+                    "rulerId": 98,
+                    "dateStart": {
+                        "year": 16,
+                        "month": 0,
+                        "day": 22
+                    },
+                    "dateEnd": {
+                        "year": 63,
+                        "month": 1,
+                        "day": 12
+                    },
+                    "duration": {
+                        "year": 47,
+                        "month": 0,
+                        "day": 19
+                    }
+                },
+                {
+                    "rulerId": 99,
+                    "dateStart": {
+                        "year": 63,
+                        "month": 1,
+                        "day": 13
+                    },
+                    "dateEnd": {
+                        "year": 67,
+                        "month": 4,
+                        "day": 23
+                    },
+                    "duration": {
+                        "year": 4,
+                        "month": 3,
+                        "day": 10
+                    }
+                },
+                {
+                    "rulerId": 100,
+                    "dateStart": {
+                        "year": 67,
+                        "month": 4,
+                        "day": 24
+                    },
+                    "dateEnd": false,
+                    "duration": {
+                        "year": 51,
+                        "month": 3,
+                        "day": 12
+                    }
+                }
+            ]
+        },
+        {
+            "id": 26,
+            "name": "Luoabrtad",
+            "climate": "continental",
+            "population": 2741760,
+            "reigns": [
+                {
+                    "rulerId": 101,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 21,
+                        "month": 5,
+                        "day": 22
+                    },
+                    "duration": {
+                        "year": 21,
+                        "month": 5,
+                        "day": 22
+                    }
+                },
+                {
+                    "rulerId": 102,
+                    "dateStart": {
+                        "year": 21,
+                        "month": 5,
+                        "day": 23
+                    },
+                    "dateEnd": {
+                        "year": 55,
+                        "month": 6,
+                        "day": 19
+                    },
+                    "duration": {
+                        "year": 33,
+                        "month": 11,
+                        "day": 25
+                    }
+                },
+                {
+                    "rulerId": 103,
+                    "dateStart": {
+                        "year": 55,
+                        "month": 6,
+                        "day": 20
+                    },
+                    "dateEnd": false,
+                    "duration": {
+                        "year": 45,
+                        "month": 9,
+                        "day": 13
+                    }
+                }
+            ]
+        },
+        {
+            "id": 27,
+            "name": "Marsolakal",
+            "climate": "temperate",
+            "population": 1632119,
+            "reigns": [
+                {
+                    "rulerId": 104,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 5,
+                        "month": 4,
+                        "day": 1
+                    },
+                    "duration": {
+                        "year": 5,
+                        "month": 4,
+                        "day": 1
+                    }
+                },
+                {
+                    "rulerId": 105,
+                    "dateStart": {
+                        "year": 5,
+                        "month": 4,
+                        "day": 2
+                    },
+                    "dateEnd": {
+                        "year": 42,
+                        "month": 4,
+                        "day": 10
+                    },
+                    "duration": {
+                        "year": 37,
+                        "month": 0,
+                        "day": 8
+                    }
+                },
+                {
+                    "rulerId": 106,
+                    "dateStart": {
+                        "year": 42,
+                        "month": 4,
+                        "day": 11
+                    },
+                    "dateEnd": {
+                        "year": 98,
+                        "month": 11,
+                        "day": 5
+                    },
+                    "duration": {
+                        "year": 56,
+                        "month": 6,
+                        "day": 23
+                    }
+                }
+            ]
+        },
+        {
+            "id": 28,
+            "name": "Tongon",
+            "climate": "tropical",
+            "population": 3250132,
+            "reigns": [
+                {
+                    "rulerId": 107,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 31,
+                        "month": 5,
+                        "day": 9
+                    },
+                    "duration": {
+                        "year": 31,
+                        "month": 5,
+                        "day": 9
+                    }
+                },
+                {
+                    "rulerId": 108,
+                    "dateStart": {
+                        "year": 31,
+                        "month": 5,
+                        "day": 10
+                    },
+                    "dateEnd": {
+                        "year": 65,
+                        "month": 11,
+                        "day": 6
+                    },
+                    "duration": {
+                        "year": 34,
+                        "month": 5,
+                        "day": 25
+                    }
+                },
+                {
+                    "rulerId": 109,
+                    "dateStart": {
+                        "year": 66,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": false,
+                    "duration": {
+                        "year": 45,
+                        "month": 3,
+                        "day": 27
+                    }
+                }
+            ]
+        },
+        {
+            "id": 29,
+            "name": "Arg",
+            "climate": "continental",
+            "population": 9884773,
+            "reigns": [
+                {
+                    "rulerId": 110,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 17,
+                        "month": 9,
+                        "day": 8
+                    },
+                    "duration": {
+                        "year": 17,
+                        "month": 9,
+                        "day": 8
+                    }
+                },
+                {
+                    "rulerId": 111,
+                    "dateStart": {
+                        "year": 17,
+                        "month": 9,
+                        "day": 9
+                    },
+                    "dateEnd": {
+                        "year": 64,
+                        "month": 11,
+                        "day": 18
+                    },
+                    "duration": {
+                        "year": 47,
+                        "month": 2,
+                        "day": 9
+                    }
+                },
+                {
+                    "rulerId": 112,
+                    "dateStart": {
+                        "year": 65,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": false,
+                    "duration": {
+                        "year": 40,
+                        "month": 2,
+                        "day": 4
+                    }
+                }
+            ]
+        },
+        {
+            "id": 30,
+            "name": "Dogonsur",
+            "climate": "continental",
+            "population": 2879146,
+            "reigns": [
+                {
+                    "rulerId": 113,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 50,
+                        "month": 4,
+                        "day": 17
+                    },
+                    "duration": {
+                        "year": 50,
+                        "month": 4,
+                        "day": 17
+                    }
+                },
+                {
+                    "rulerId": 114,
+                    "dateStart": {
+                        "year": 50,
+                        "month": 4,
+                        "day": 18
+                    },
+                    "dateEnd": {
+                        "year": 85,
+                        "month": 5,
+                        "day": 14
+                    },
+                    "duration": {
+                        "year": 35,
+                        "month": 0,
+                        "day": 25
+                    }
+                },
+                {
+                    "rulerId": 115,
+                    "dateStart": {
+                        "year": 85,
+                        "month": 5,
+                        "day": 15
+                    },
+                    "dateEnd": false,
+                    "duration": {
+                        "year": 15,
+                        "month": 7,
+                        "day": 17
+                    }
+                }
+            ]
+        },
+        {
+            "id": 31,
+            "name": "Tapyi",
+            "climate": "polar",
+            "population": 3025101,
+            "reigns": [
+                {
+                    "rulerId": 116,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 22,
+                        "month": 2,
+                        "day": 22
+                    },
+                    "duration": {
+                        "year": 22,
+                        "month": 2,
+                        "day": 22
+                    }
+                },
+                {
+                    "rulerId": 117,
+                    "dateStart": {
+                        "year": 22,
+                        "month": 2,
+                        "day": 23
+                    },
+                    "dateEnd": {
+                        "year": 47,
+                        "month": 11,
+                        "day": 11
+                    },
+                    "duration": {
+                        "year": 25,
+                        "month": 8,
+                        "day": 17
+                    }
+                },
+                {
+                    "rulerId": 118,
+                    "dateStart": {
+                        "year": 48,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": false,
+                    "duration": {
+                        "year": 53,
+                        "month": 4,
+                        "day": 5
+                    }
+                }
+            ]
+        },
+        {
+            "id": 32,
+            "name": "Ekekol",
+            "climate": "dry",
+            "population": 9779900,
+            "reigns": [
+                {
+                    "rulerId": 119,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 51,
+                        "month": 6,
+                        "day": 20
+                    },
+                    "duration": {
+                        "year": 51,
+                        "month": 6,
+                        "day": 20
+                    }
+                },
+                {
+                    "rulerId": 120,
+                    "dateStart": {
+                        "year": 51,
+                        "month": 6,
+                        "day": 21
+                    },
+                    "dateEnd": {
+                        "year": 76,
+                        "month": 7,
+                        "day": 9
+                    },
+                    "duration": {
+                        "year": 24,
+                        "month": 11,
+                        "day": 17
+                    }
+                },
+                {
+                    "rulerId": 121,
+                    "dateStart": {
+                        "year": 76,
+                        "month": 7,
+                        "day": 10
+                    },
+                    "dateEnd": false,
+                    "duration": {
+                        "year": 34,
+                        "month": 0,
+                        "day": 4
+                    }
+                }
+            ]
+        },
+        {
+            "id": 33,
+            "name": "Kolummdyn",
+            "climate": "polar",
+            "population": 2042130,
+            "reigns": [
+                {
+                    "rulerId": 122,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 12,
+                        "month": 6,
+                        "day": 5
+                    },
+                    "duration": {
+                        "year": 12,
+                        "month": 6,
+                        "day": 5
+                    }
+                },
+                {
+                    "rulerId": 123,
+                    "dateStart": {
+                        "year": 12,
+                        "month": 6,
+                        "day": 6
+                    },
+                    "dateEnd": {
+                        "year": 37,
+                        "month": 4,
+                        "day": 4
+                    },
+                    "duration": {
+                        "year": 24,
+                        "month": 8,
+                        "day": 27
+                    }
+                },
+                {
+                    "rulerId": 124,
+                    "dateStart": {
+                        "year": 37,
+                        "month": 4,
+                        "day": 5
+                    },
+                    "dateEnd": {
+                        "year": 60,
+                        "month": 10,
+                        "day": 14
+                    },
+                    "duration": {
+                        "year": 23,
+                        "month": 6,
+                        "day": 9
+                    }
+                },
+                {
+                    "rulerId": 125,
+                    "dateStart": {
+                        "year": 60,
+                        "month": 10,
+                        "day": 15
+                    },
+                    "dateEnd": false,
+                    "duration": {
+                        "year": 53,
+                        "month": 7,
+                        "day": 2
+                    }
+                }
+            ]
+        },
+        {
+            "id": 34,
+            "name": "Ekenot",
+            "climate": "continental",
+            "population": 7930162,
+            "reigns": [
+                {
+                    "rulerId": 126,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 26,
+                        "month": 7,
+                        "day": 19
+                    },
+                    "duration": {
+                        "year": 26,
+                        "month": 7,
+                        "day": 19
+                    }
+                },
+                {
+                    "rulerId": 127,
+                    "dateStart": {
+                        "year": 26,
+                        "month": 7,
+                        "day": 20
+                    },
+                    "dateEnd": {
+                        "year": 31,
+                        "month": 5,
+                        "day": 18
+                    },
+                    "duration": {
+                        "year": 4,
+                        "month": 8,
+                        "day": 27
+                    }
+                },
+                {
+                    "rulerId": 128,
+                    "dateStart": {
+                        "year": 31,
+                        "month": 5,
+                        "day": 19
+                    },
+                    "dateEnd": {
+                        "year": 64,
+                        "month": 8,
+                        "day": 22
+                    },
+                    "duration": {
+                        "year": 33,
+                        "month": 3,
+                        "day": 3
+                    }
+                },
+                {
+                    "rulerId": 129,
+                    "dateStart": {
+                        "year": 64,
+                        "month": 8,
+                        "day": 23
+                    },
+                    "dateEnd": false,
+                    "duration": {
+                        "year": 59,
+                        "month": 11,
+                        "day": 12
+                    }
+                }
+            ]
+        },
+        {
+            "id": 35,
+            "name": "Ahatad",
+            "climate": "polar",
+            "population": 3807869,
+            "reigns": [
+                {
+                    "rulerId": 130,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 44,
+                        "month": 11,
+                        "day": 9
+                    },
+                    "duration": {
+                        "year": 44,
+                        "month": 11,
+                        "day": 9
+                    }
+                },
+                {
+                    "rulerId": 131,
+                    "dateStart": {
+                        "year": 45,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 66,
+                        "month": 10,
+                        "day": 19
+                    },
+                    "duration": {
+                        "year": 21,
+                        "month": 10,
+                        "day": 19
+                    }
+                },
+                {
+                    "rulerId": 132,
+                    "dateStart": {
+                        "year": 66,
+                        "month": 10,
+                        "day": 20
+                    },
+                    "dateEnd": false,
+                    "duration": {
+                        "year": 45,
+                        "month": 7,
+                        "day": 4
+                    }
+                }
+            ]
+        },
+        {
+            "id": 36,
+            "name": "Piadan",
+            "climate": "tropical",
+            "population": 9401314,
+            "reigns": [
+                {
+                    "rulerId": 133,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 25,
+                        "month": 3,
+                        "day": 24
+                    },
+                    "duration": {
+                        "year": 25,
+                        "month": 3,
+                        "day": 24
+                    }
+                },
+                {
+                    "rulerId": 134,
+                    "dateStart": {
+                        "year": 25,
+                        "month": 3,
+                        "day": 25
+                    },
+                    "dateEnd": {
+                        "year": 34,
+                        "month": 3,
+                        "day": 29
+                    },
+                    "duration": {
+                        "year": 9,
+                        "month": 0,
+                        "day": 4
+                    }
+                },
+                {
+                    "rulerId": 135,
+                    "dateStart": {
+                        "year": 34,
+                        "month": 4,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 75,
+                        "month": 2,
+                        "day": 29
+                    },
+                    "duration": {
+                        "year": 40,
+                        "month": 9,
+                        "day": 29
+                    }
+                },
+                {
+                    "rulerId": 136,
+                    "dateStart": {
+                        "year": 75,
+                        "month": 3,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 77,
+                        "month": 10,
+                        "day": 16
+                    },
+                    "duration": {
+                        "year": 2,
+                        "month": 7,
+                        "day": 16
+                    }
+                },
+                {
+                    "rulerId": 137,
+                    "dateStart": {
+                        "year": 77,
+                        "month": 10,
+                        "day": 17
+                    },
+                    "dateEnd": false,
+                    "duration": {
+                        "year": 58,
+                        "month": 6,
+                        "day": 26
+                    }
+                }
+            ]
+        },
+        {
+            "id": 37,
+            "name": "Tag",
+            "climate": "dry",
+            "population": 1518280,
+            "reigns": [
+                {
+                    "rulerId": 138,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 9,
+                        "month": 8,
+                        "day": 6
+                    },
+                    "duration": {
+                        "year": 9,
+                        "month": 8,
+                        "day": 6
+                    }
+                },
+                {
+                    "rulerId": 139,
+                    "dateStart": {
+                        "year": 9,
+                        "month": 8,
+                        "day": 7
+                    },
+                    "dateEnd": {
+                        "year": 23,
+                        "month": 10,
+                        "day": 4
+                    },
+                    "duration": {
+                        "year": 14,
+                        "month": 1,
+                        "day": 26
+                    }
+                },
+                {
+                    "rulerId": 140,
+                    "dateStart": {
+                        "year": 23,
+                        "month": 10,
+                        "day": 5
+                    },
+                    "dateEnd": {
+                        "year": 66,
+                        "month": 2,
+                        "day": 17
+                    },
+                    "duration": {
+                        "year": 42,
+                        "month": 3,
+                        "day": 12
+                    }
+                },
+                {
+                    "rulerId": 141,
+                    "dateStart": {
+                        "year": 66,
+                        "month": 2,
+                        "day": 18
+                    },
+                    "dateEnd": {
+                        "year": 93,
+                        "month": 5,
+                        "day": 4
+                    },
+                    "duration": {
+                        "year": 27,
+                        "month": 2,
+                        "day": 15
+                    }
+                },
+                {
+                    "rulerId": 142,
+                    "dateStart": {
+                        "year": 93,
+                        "month": 5,
+                        "day": 5
+                    },
+                    "dateEnd": false,
+                    "duration": {
+                        "year": 19,
+                        "month": 6,
+                        "day": 28
+                    }
+                }
+            ]
+        },
+        {
+            "id": 38,
+            "name": "Nnaeke",
+            "climate": "polar",
+            "population": 2365172,
+            "reigns": [
+                {
+                    "rulerId": 143,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 60,
+                        "month": 6,
+                        "day": 6
+                    },
+                    "duration": {
+                        "year": 60,
+                        "month": 6,
+                        "day": 6
+                    }
+                },
+                {
+                    "rulerId": 144,
+                    "dateStart": {
+                        "year": 60,
+                        "month": 6,
+                        "day": 7
+                    },
+                    "dateEnd": false,
+                    "duration": {
+                        "year": 52,
+                        "month": 10,
+                        "day": 5
+                    }
+                }
+            ]
+        },
+        {
+            "id": 39,
+            "name": "Tan",
+            "climate": "tropical",
+            "population": 178327,
+            "reigns": [
+                {
+                    "rulerId": 145,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 33,
+                        "month": 9,
+                        "day": 19
+                    },
+                    "duration": {
+                        "year": 33,
+                        "month": 9,
+                        "day": 19
+                    }
+                },
+                {
+                    "rulerId": 146,
+                    "dateStart": {
+                        "year": 33,
+                        "month": 9,
+                        "day": 20
+                    },
+                    "dateEnd": {
+                        "year": 89,
+                        "month": 5,
+                        "day": 11
+                    },
+                    "duration": {
+                        "year": 55,
+                        "month": 6,
+                        "day": 20
+                    }
+                },
+                {
+                    "rulerId": 147,
+                    "dateStart": {
+                        "year": 89,
+                        "month": 5,
+                        "day": 12
+                    },
+                    "dateEnd": false,
+                    "duration": {
+                        "year": 12,
+                        "month": 1,
+                        "day": 28
+                    }
+                }
+            ]
+        },
+        {
+            "id": 40,
+            "name": "Yararg",
+            "climate": "temperate",
+            "population": 73214,
+            "reigns": [
+                {
+                    "rulerId": 148,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 44,
+                        "month": 7,
+                        "day": 24
+                    },
+                    "duration": {
+                        "year": 44,
+                        "month": 7,
+                        "day": 24
+                    }
+                },
+                {
+                    "rulerId": 149,
+                    "dateStart": {
+                        "year": 44,
+                        "month": 7,
+                        "day": 25
+                    },
+                    "dateEnd": false,
+                    "duration": {
+                        "year": 56,
+                        "month": 2,
+                        "day": 2
+                    }
+                }
+            ]
+        },
+        {
+            "id": 41,
+            "name": "Yarledoll",
+            "climate": "tropical",
+            "population": 1649176,
+            "reigns": [
+                {
+                    "rulerId": 150,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 38,
+                        "month": 0,
+                        "day": 17
+                    },
+                    "duration": {
+                        "year": 38,
+                        "month": 0,
+                        "day": 17
+                    }
+                },
+                {
+                    "rulerId": 151,
+                    "dateStart": {
+                        "year": 38,
+                        "month": 0,
+                        "day": 18
+                    },
+                    "dateEnd": {
+                        "year": 82,
+                        "month": 4,
+                        "day": 7
+                    },
+                    "duration": {
+                        "year": 44,
+                        "month": 3,
+                        "day": 18
+                    }
+                },
+                {
+                    "rulerId": 152,
+                    "dateStart": {
+                        "year": 82,
+                        "month": 4,
+                        "day": 8
+                    },
+                    "dateEnd": false,
+                    "duration": {
+                        "year": 46,
+                        "month": 0,
+                        "day": 20
+                    }
+                }
+            ]
+        },
+        {
+            "id": 42,
+            "name": "Pia",
+            "climate": "polar",
+            "population": 2142881,
+            "reigns": [
+                {
+                    "rulerId": 153,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 52,
+                        "month": 3,
+                        "day": 25
+                    },
+                    "duration": {
+                        "year": 52,
+                        "month": 3,
+                        "day": 25
+                    }
+                },
+                {
+                    "rulerId": 154,
+                    "dateStart": {
+                        "year": 52,
+                        "month": 3,
+                        "day": 26
+                    },
+                    "dateEnd": false,
+                    "duration": {
+                        "year": 51,
+                        "month": 9,
+                        "day": 7
+                    }
+                }
+            ]
+        },
+        {
+            "id": 43,
+            "name": "Ull",
+            "climate": "dry",
+            "population": 9734207,
+            "reigns": [
+                {
+                    "rulerId": 155,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 45,
+                        "month": 5,
+                        "day": 15
+                    },
+                    "duration": {
+                        "year": 45,
+                        "month": 5,
+                        "day": 15
+                    }
+                },
+                {
+                    "rulerId": 156,
+                    "dateStart": {
+                        "year": 45,
+                        "month": 5,
+                        "day": 16
+                    },
+                    "dateEnd": {
+                        "year": 61,
+                        "month": 1,
+                        "day": 16
+                    },
+                    "duration": {
+                        "year": 15,
+                        "month": 6,
+                        "day": 29
+                    }
+                },
+                {
+                    "rulerId": 157,
+                    "dateStart": {
+                        "year": 61,
+                        "month": 1,
+                        "day": 17
+                    },
+                    "dateEnd": {
+                        "year": 67,
+                        "month": 11,
+                        "day": 5
+                    },
+                    "duration": {
+                        "year": 6,
+                        "month": 9,
+                        "day": 17
+                    }
+                },
+                {
+                    "rulerId": 158,
+                    "dateStart": {
+                        "year": 68,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": false,
+                    "duration": {
+                        "year": 44,
+                        "month": 6,
+                        "day": 27
+                    }
+                }
+            ]
+        },
+        {
+            "id": 44,
+            "name": "Ghuabrpac",
+            "climate": "continental",
+            "population": 6349212,
+            "reigns": [
+                {
+                    "rulerId": 159,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 41,
+                        "month": 11,
+                        "day": 17
+                    },
+                    "duration": {
+                        "year": 41,
+                        "month": 11,
+                        "day": 17
+                    }
+                },
+                {
+                    "rulerId": 160,
+                    "dateStart": {
+                        "year": 42,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 65,
+                        "month": 8,
+                        "day": 16
+                    },
+                    "duration": {
+                        "year": 23,
+                        "month": 8,
+                        "day": 16
+                    }
+                },
+                {
+                    "rulerId": 161,
+                    "dateStart": {
+                        "year": 65,
+                        "month": 8,
+                        "day": 17
+                    },
+                    "dateEnd": {
+                        "year": 84,
+                        "month": 1,
+                        "day": 27
+                    },
+                    "duration": {
+                        "year": 18,
+                        "month": 4,
+                        "day": 10
+                    }
+                },
+                {
+                    "rulerId": 162,
+                    "dateStart": {
+                        "year": 84,
+                        "month": 1,
+                        "day": 28
+                    },
+                    "dateEnd": false,
+                    "duration": {
+                        "year": 30,
+                        "month": 1,
+                        "day": 0
+                    }
+                }
+            ]
+        },
+        {
+            "id": 45,
+            "name": "Tonsed",
+            "climate": "dry",
+            "population": 1155908,
+            "reigns": [
+                {
+                    "rulerId": 163,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 51,
+                        "month": 4,
+                        "day": 9
+                    },
+                    "duration": {
+                        "year": 51,
+                        "month": 4,
+                        "day": 9
+                    }
+                },
+                {
+                    "rulerId": 164,
+                    "dateStart": {
+                        "year": 51,
+                        "month": 4,
+                        "day": 10
+                    },
+                    "dateEnd": {
+                        "year": 89,
+                        "month": 11,
+                        "day": 12
+                    },
+                    "duration": {
+                        "year": 38,
+                        "month": 7,
+                        "day": 2
+                    }
+                },
+                {
+                    "rulerId": 165,
+                    "dateStart": {
+                        "year": 90,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 95,
+                        "month": 6,
+                        "day": 5
+                    },
+                    "duration": {
+                        "year": 5,
+                        "month": 6,
+                        "day": 5
+                    }
+                },
+                {
+                    "rulerId": 166,
+                    "dateStart": {
+                        "year": 95,
+                        "month": 6,
+                        "day": 6
+                    },
+                    "dateEnd": false,
+                    "duration": {
+                        "year": 48,
+                        "month": 11,
+                        "day": 4
+                    }
+                }
+            ]
+        },
+        {
+            "id": 46,
+            "name": "Ohuahinna",
+            "climate": "polar",
+            "population": 7970404,
+            "reigns": [
+                {
+                    "rulerId": 167,
+                    "dateStart": {
+                        "year": 0,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 42,
+                        "month": 5,
+                        "day": 11
+                    },
+                    "duration": {
+                        "year": 42,
+                        "month": 5,
+                        "day": 11
+                    }
+                },
+                {
+                    "rulerId": 168,
+                    "dateStart": {
+                        "year": 42,
+                        "month": 5,
+                        "day": 12
+                    },
+                    "dateEnd": {
+                        "year": 60,
+                        "month": 11,
+                        "day": 26
+                    },
+                    "duration": {
+                        "year": 18,
+                        "month": 6,
+                        "day": 14
+                    }
+                },
+                {
+                    "rulerId": 169,
+                    "dateStart": {
+                        "year": 61,
+                        "month": 0,
+                        "day": 0
+                    },
+                    "dateEnd": {
+                        "year": 72,
+                        "month": 5,
+                        "day": 11
+                    },
+                    "duration": {
+                        "year": 11,
+                        "month": 5,
+                        "day": 11
+                    }
+                },
+                {
+                    "rulerId": 170,
+                    "dateStart": {
+                        "year": 72,
+                        "month": 5,
+                        "day": 12
+                    },
+                    "dateEnd": {
+                        "year": 97,
+                        "month": 8,
+                        "day": 17
+                    },
+                    "duration": {
+                        "year": 25,
+                        "month": 3,
+                        "day": 5
+                    }
+                },
+                {
+                    "rulerId": 171,
+                    "dateStart": {
+                        "year": 97,
+                        "month": 8,
+                        "day": 18
+                    },
+                    "dateEnd": false,
+                    "duration": {
+                        "year": 48,
+                        "month": 10,
+                        "day": 12
+                    }
+                }
+            ]
+        }
+    ],
+    "eventCount": 544
+}

@@ -1,5 +1,3 @@
-import { World } from "../generators/WorldGenerator";
-
 export interface NameGeneratorParams {
     min?: number,
     max?: number,
@@ -15,8 +13,26 @@ export interface TimelineParams {
 }
 
 export interface PersonParams {
-    birth: EventDate,
-    death: EventDate,
+    id: number,
+    role: string,
+    birthConditions?: RangeCondition,
+    deathConditions?: RangeCondition,
+}
+
+export interface BirthDeathParams {
+    personId: number,
+    condition?: RangeCondition,
+}
+
+export interface RangeCondition {
+    min: number,
+    max: number
+}
+
+export interface RulerRole {
+    type: "ruler",
+    start: EventDate,
+    end: EventDate,
 }
 
 export interface EventParams {
@@ -33,8 +49,8 @@ export interface EventDate {
 export interface Reign {
     rulerId: number,
     dateStart: EventDate,
-    dateEnd: EventDate|false,
-    duration : EventDate, 
+    dateEnd: EventDate | false,
+    duration: EventDate | "current",
 }
 
 export interface DeathEventParams {
@@ -42,7 +58,7 @@ export interface DeathEventParams {
     birth: EventDate,
 }
 
-export interface RegionParams{
-    regionId : number, 
-    lifespan : number,
+export interface RegionParams {
+    regionId: number,
+    lifespan: number,
 }

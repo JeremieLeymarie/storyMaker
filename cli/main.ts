@@ -39,6 +39,7 @@ function save() {
 
 function back(){
     printer.printWorld();
+    CURRENT_PHASE = "REGION_LIST"; 
 }
 // function handlePhases(printer: Printer, arg: string) {
 //     switch (CURRENT_PHASE) {

@@ -10,8 +10,9 @@ export class ReignEnd {
         this.date = date;
         this.rulerId = rulerId;
         this.regionId = regionId;
-        if (this.date.year < 100) {
-            timeline[this.date.year][this.date.month][this.date.day].push(this);
+        const { year, month, day } = this.date;
+        if (year < 100 && year >= 0) {
+            timeline[year][month][day].push(this);
         }
     }
 }

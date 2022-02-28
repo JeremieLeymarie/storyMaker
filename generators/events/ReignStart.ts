@@ -11,6 +11,7 @@ export class ReignStart {
         this.rulerId = rulerId;
         this.regionId = regionId;
         const { year, month, day } = this.date;
-        timeline[year][month][day].push(this);
+        if (year >= 0)
+            timeline[year][month][day].push(this);
     }
 }

@@ -13,7 +13,7 @@ export class Printer {
         log(clc.green(dashes))
         log(clc.green(welcomeStr));
         log(clc.green(dashes))
-        log(`${clc.bold(people.length)} people, ${clc.bold(world.nbOfRegions)} regions have been generated. `)
+        log(`${clc.bold(people.length)} people, ${clc.bold(world.nbOfRegions)} regions and ${clc.bold(world.eventCount)} historic events have been generated. `)
         this.printAllRegions();
     }
 
