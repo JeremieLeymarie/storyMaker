@@ -1,3 +1,8 @@
+import { BirthEvent } from "../generators/events/BirthEvent"
+import { DeathEvent } from "../generators/events/DeathEvent"
+import { ReignEnd } from "../generators/events/ReignEnd"
+import { ReignStart } from "../generators/events/ReignStart"
+
 export interface NameGeneratorParams {
     min?: number,
     max?: number,
@@ -62,3 +67,5 @@ export interface RegionParams {
     regionId: number,
     lifespan: number,
 }
+
+export type Event = BirthEvent| DeathEvent| ReignStart | ReignEnd;
