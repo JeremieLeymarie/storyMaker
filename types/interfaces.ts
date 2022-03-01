@@ -24,7 +24,7 @@ export interface PersonParams {
     deathConditions?: RangeCondition,
 }
 
-export interface BirthDeathParams {
+export interface BirthParams {
     personId: number,
     condition?: RangeCondition,
 }
@@ -60,7 +60,10 @@ export interface Reign {
 
 export interface DeathEventParams {
     personId: number,
-    birth: EventDate,
+    condition : {
+        type : "birth"|"deathAfter", 
+        cond : number, 
+    }
 }
 
 export interface RegionParams {

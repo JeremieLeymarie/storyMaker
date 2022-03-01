@@ -8,10 +8,11 @@ export class DeathEvent extends HistoricEvent {
     eventType = "death";
 
 
-    public constructor({ personId, birth }: DeathEventParams) {
+    public constructor({ personId, condition }: DeathEventParams) {
         super();
         this.personId = personId;
-        this.date = DateGenerator.generateTimeOfDeath(birth)
+        const max = condition.type === "birth" ? condition.cond + 110 : condition.cond + 80;
+        this.date = DateGenerator.randomDate(condition.cond, max);
         const { year, month, day } = this.date;
         if (year < 100 && year >= 0) {
             timeline[year][month][day].push(this);

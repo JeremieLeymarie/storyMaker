@@ -14,13 +14,14 @@ export class Person {
 
     public constructor({ id, role, birthConditions, deathConditions }: PersonParams) {
         this.name = new Name({}).generateName();
-        if (birthConditions) {
-            this.birthday = new BirthEvent({ personId: id, condition: { min: birthConditions?.min, max: birthConditions?.max } }).date;
+        if (birthConditions && deathConditions) {
+            this.birthday = new BirthEvent({ personId: id, condition: { min: birthConditions.min, max: birthConditions?.max } }).date;
+            this.death = new DeathEvent({ personId: id, condition: { cond: deathConditions.min, type: "deathAfter" } }).date;
         }
         else {
             this.birthday = new BirthEvent({ personId: id }).date;
+            this.death = new DeathEvent({ personId: id, condition: { cond: this.birthday.year, type: "birth" } }).date;
         }
-        this.death = new DeathEvent({ personId: id, birth: this.birthday }).date;
         this.role = role;
         people.push(this);
     }

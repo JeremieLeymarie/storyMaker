@@ -1,4 +1,4 @@
-import { BirthDeathParams, EventDate } from "../../types/interfaces";
+import { BirthParams, EventDate } from "../../types/interfaces";
 import { DateGenerator } from "../DateGenerator";
 import { HistoricEvent } from "./EventGenerator";
 
@@ -7,7 +7,7 @@ export class BirthEvent extends HistoricEvent {
     date: EventDate;
     eventType = "birth"
 
-    public constructor({ personId, condition }: BirthDeathParams) {
+    public constructor({ personId, condition }: BirthParams) {
         super();
         if (condition) {
             this.date = DateGenerator.randomDate(condition.min, condition.max);

@@ -13,10 +13,10 @@ export abstract class DateGenerator {
         };
     }
 
-    public static generateTimeOfDeath(birth: EventDate): EventDate {
+    public static generateTimeOfDeath(birth: number): EventDate {
         const yearsToLive = getRandomNumberInRange(1, 110);
         return {
-            year: birth.year + yearsToLive,
+            year: birth + yearsToLive,
             month: getRandomNumberInRange(0, 11),
             day: getRandomNumberInRange(0, 29),
         };
@@ -37,11 +37,11 @@ export abstract class DateGenerator {
         return { year, month, day };
     }
 
-    public static substractDates(a:EventDate, b:EventDate):EventDate{
-        let year = a.year - b.year; 
+    public static substractDates(a: EventDate, b: EventDate): EventDate {
+        let year = Math.abs(a.year - b.year);
         let month = Math.abs(a.month - b.month);
-        let day = Math.abs(a.day - b.day); 
+        let day = Math.abs(a.day - b.day);
 
-        return {year, month, day}
+        return { year, month, day }
     }
 }

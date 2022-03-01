@@ -27,6 +27,12 @@ export class Region {
     }
 
     private generateReigns(lifespan: number): Reign[] {
+        /*
+            - Generate ReignStart date between the year -20 years and the year (in the loops) 
+            - Generate Ruler born between 50 & 18 years before the reignStart date
+            - Generate reign duration between 
+        
+        */
         const reigns = [];
         for (let years = 0; years < lifespan - 1; years++) {
             for (let months = 0; months < 11 && years < lifespan - 1; months++) {
@@ -40,18 +46,15 @@ export class Region {
                     else {
                         reignStartDate = new ReignStart({ year: years, month: months, day: days }, rulerId, this.id,).date;
                     }
-                    const ruler = new Person({ id: rulerId, role: "ruler", birthConditions: { min: reignStartDate.year - 50, max: reignStartDate.year - 5 } });
-                    let duration: EventDate;
-                    if (ruler.death) {
-                        const maxDuration = DateGenerator.substractDates(ruler.death, reignStartDate);
-                        duration = DateGenerator.randomDate(1, maxDuration.year);
-                    }
-                    else {
-                        duration = DateGenerator.randomDate(1, 60);
-                    }
-                    const end = DateGenerator.addDates(reignStartDate, duration); 
+                    const ruler = new Person({ id: rulerId, role: "ruler", birthConditions: { min: reignStartDate.year - 50, max: reignStartDate.year - 15 }, deathConditions: { min: reignStartDate.year, max: 1500 } });
+                    let end: EventDate;
+                    if (ruler.death) end = DateGenerator.randomDate(reignStartDate.year + 1, ruler.death.year - 1);
+                    else end = DateGenerator.randomDate(reignStartDate.year + 1, 60);
+                    // if(end.year < reignStartDate.year) {
+                    //     console.log(reignStartDate, ruler);
+                    // }
                     const dateEnd = end.year < lifespan ? new ReignEnd(end, rulerId, this.id).date : false;
-                    // const duration = dateEnd ? DateGenerator.substractDates(dateEnd, reignStartDate) : "current";
+                    const duration = dateEnd ? DateGenerator.substractDates(dateEnd, reignStartDate) : "current";
                     const reignObj: Reign = { rulerId, dateStart: reignStartDate, dateEnd, duration }
                     years = end.year;
                     months = end.month;
