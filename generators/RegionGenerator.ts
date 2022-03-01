@@ -1,6 +1,6 @@
 import { Name } from "./NameGenerator";
 import { getRandomNumberInRange } from "../utils";
-import { EventDate, RegionParams, Reign } from "../types/interfaces";
+import { EventDate, RegionParams, Reign, RulerRole } from "../types/interfaces";
 import { Person } from "./PersonGenerator";
 import { ReignStart } from "./events/ReignStart";
 import { ReignEnd } from "./events/ReignEnd";
@@ -35,8 +35,8 @@ export class Region {
         */
         const reigns = [];
         for (let years = 0; years < lifespan - 1; years++) {
-            for (let months = 0; months < 11 && years < lifespan - 1; months++) {
-                for (let days = 0; days < 29 && years < lifespan - 1 && months < 11; days++) {
+            for (let months = 0; months < 12 && years < lifespan - 1; months++) {
+                for (let days = 0; days < 30 && years < lifespan - 1 && months < 120; days++) {
                     const rulerId = people.length;
                     let reignStartDate: EventDate;
                     if (years === 0) {
@@ -46,14 +46,17 @@ export class Region {
                     else {
                         reignStartDate = new ReignStart({ year: years, month: months, day: days }, rulerId, this.id,).date;
                     }
-                    const ruler = new Person({ id: rulerId, role: "ruler", birthConditions: { min: reignStartDate.year - 50, max: reignStartDate.year - 15 }, deathConditions: { min: reignStartDate.year, max: 1500 } });
+                    const role:RulerRole = {
+                        type:"ruler", 
+                        start : reignStartDate,
+                        regionId:this.id,
+                    }
+                    const ruler = new Person({ id: rulerId, role, birthConditions: { min: reignStartDate.year - 50, max: reignStartDate.year - 15 }, deathConditions: { min: reignStartDate.year, max: 1500 } });
                     let end: EventDate;
                     if (ruler.death) end = DateGenerator.randomDate(reignStartDate.year + 1, ruler.death.year - 1);
                     else end = DateGenerator.randomDate(reignStartDate.year + 1, 60);
-                    // if(end.year < reignStartDate.year) {
-                    //     console.log(reignStartDate, ruler);
-                    // }
                     const dateEnd = end.year < lifespan ? new ReignEnd(end, rulerId, this.id).date : false;
+                    ruler.role.end = dateEnd;
                     const duration = dateEnd ? DateGenerator.substractDates(dateEnd, reignStartDate) : "current";
                     const reignObj: Reign = { rulerId, dateStart: reignStartDate, dateEnd, duration }
                     years = end.year;
@@ -65,5 +68,7 @@ export class Region {
         }
         return reigns;
     }
+
+
 
 }

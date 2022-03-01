@@ -19,7 +19,7 @@ export interface TimelineParams {
 
 export interface PersonParams {
     id: number,
-    role: string,
+    role: Role,
     birthConditions?: RangeCondition,
     deathConditions?: RangeCondition,
 }
@@ -36,8 +36,9 @@ export interface RangeCondition {
 
 export interface RulerRole {
     type: "ruler",
-    start: EventDate,
-    end: EventDate,
+    start?: EventDate,
+    end?: EventDate|false,
+    regionId : number,
 }
 
 export interface EventParams {
@@ -71,4 +72,13 @@ export interface RegionParams {
     lifespan: number,
 }
 
+export interface ErrorPrinterParams{
+    errorType : string, 
+    fn? : string, 
+    file : string, 
+    line? : string,
+}
+
+
+export type Role = RulerRole;
 export type Event = BirthEvent| DeathEvent| ReignStart | ReignEnd;
