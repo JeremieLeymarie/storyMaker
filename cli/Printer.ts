@@ -9,10 +9,7 @@ export class Printer {
 
     public printWorld(): void {
         const welcomeStr = "Welcome to the world of " + world?.name;
-        let dashes = "";
-        for (let i = 0; i < welcomeStr.length; i++) {
-            dashes += "-";
-        }
+        const dashes = "-".repeat(welcomeStr.length);
         log(clc.green(dashes))
         log(clc.green(welcomeStr));
         log(clc.green(dashes))
