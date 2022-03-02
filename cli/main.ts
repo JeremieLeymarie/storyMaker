@@ -50,9 +50,9 @@ const commands = [
     }, "Save the current world info in the data folder"),
     new Command("regions", {}, printer.printAllRegions, "Print a list of all the regions"),
     new Command("time", {}, printer.printTimeline, "Print a timeline of all of the events that occurred in this world"),
-    new Command("person", { id: Number }, PersonPrinter.printPersonDetails, "Get a individual's information with it's ID"),
-    new Command("region", { id: Number }, printer.printRegion.bind(printer), "Get a region's information with it's ID"),
-    new Command("day", { year: Number, month: Number, day: Number }, (year, month, day) => printer.printDay({ year, month, day }), "Get the events that occurred particular date"),
+    new Command("person", { id: Number }, PersonPrinter.printPersonDetails, "Get a individual's information with their ID"),
+    new Command("region", { id: Number }, printer.printRegion.bind(printer), "Get a region's information with their ID"),
+    new Command("day", { year: Number, month: Number, day: Number }, (year, month, day) => printer.printDay({ year, month, day }), "Get the events that occurred at a particular date"),
 ];
 
 commands.push(new Command("help", {}, () => {
@@ -61,7 +61,7 @@ commands.push(new Command("help", {}, () => {
         console.log(clc.cyan(`${command.key} ${Object.entries(command.usage).map(usage => `<${usage[0]}: ${usage[1].name.toLowerCase()}>`).join(" ")} `) + (command.description ? command.description : "") + "\n");
     });
     console.log(clc.cyan("-".repeat(Math.floor(process.stdout.columns/2))));
-}, "Displays the very help menu your watching"));
+}, "Displays the very help menu you're watching"));
 
 export function parseCmd(rawStr: string) {
     const args = rawStr.split(" ");
