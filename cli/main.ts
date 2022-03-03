@@ -5,78 +5,67 @@ import { Printer } from './Printer';
 import { PersonPrinter } from './printers/PersonPrinter';
 const printer = new Printer();
 
-const PHASES = [
-    "REGION_LIST",
-    "REGION_DETAILS",
-    "PERSON_DETAILS",
-    "TIMELINE",
+type anyClass = { new(...args: any[]): any };
+
+class Command {
+    key: string;
+    callback: (...args: any[]) => unknown;
+    usage: { [index:string]: anyClass };
+    description?: string;
+
+    constructor(key: string, usage: { [index:string]: anyClass }, cb: (...args: any[]) => unknown, description?: string) {
+        this.key = key;
+        this.callback = cb;
+        this.usage = usage;
+        this.description = description;
+    }
+
+    execute(params: string[]) {
+        let arg = [];
+        try {
+            arg = params.map((param, i) => new (Object.values(this.usage)[i])(param));
+            if (arg.length != Object.values(this.usage).length) throw "";
+
+            try {
+                this.callback(...arg); 
+            } catch (error) {
+                console.log(error);
+                console.log(clc.red("Command \"" + this.key + "\" failed!"));
+            }
+        } catch {
+            console.log(clc.red(`Usage is: ${this.key} ${Object.entries(this.usage).map(usage => `<${usage[0]}: ${usage[1].name.toLowerCase()}>`).join(" ")}`));
+        }
+    }
+}
+
+const commands = [
+    new Command("save", {}, () => {
+        fs.writeFile(path.join(__dirname, "../data/world.json"), JSON.stringify(world), (err) => {
+            if (err) throw err;
+            fs.writeFile(path.join(__dirname, "../data/timeline.json"), JSON.stringify(timeline), (err) => {
+                if (err) throw err;
+                console.log(clc.green("Successfully saved!"));
+            });
+        });
+    }, "Save the current world info in the data folder"),
+    new Command("regions", {}, printer.printAllRegions, "Print a list of all the regions"),
+    new Command("time", {}, printer.printTimeline, "Print a timeline of all of the events that occurred in this world"),
+    new Command("person", { id: Number }, PersonPrinter.printPersonDetails, "Get a individual's information with their ID"),
+    new Command("region", { id: Number }, printer.printRegion.bind(printer), "Get a region's information with their ID"),
+    new Command("day", { year: Number, month: Number, day: Number }, (year, month, day) => printer.printDay({ year, month, day }), "Get the events that occurred at a particular date"),
 ];
 
-export function parseCmd(cmd: string) {
-    const args = cmd.split(" ");
-    if (cmds.includes(args[0])) {
-        eval(args[0])(args.slice(1, args.length));
-    }
-    else {
-        console.log(clc.red("Unknown command, try again"))
-    }
-    // else {
-    //     switch (CURRENT_PHASE) {
-    //         case "REGION_LIST":
-    //             printer.printRegion(Number(cmd));
-    //             CURRENT_PHASE = "REGION_DETAILS";
-    //             break;
-    //         case "REGION_DETAILS":
-    //             PersonPrinter.printPersonDetails(Number(cmd));
-    //             break;
-    //     }
-    // }
-}
+commands.push(new Command("help", {}, () => {
+    console.log(clc.cyan("-".repeat(Math.floor(process.stdout.columns/2))) + "\n");
+    commands.forEach(command => {
+        console.log(clc.cyan(`${command.key} ${Object.entries(command.usage).map(usage => `<${usage[0]}: ${usage[1].name.toLowerCase()}>`).join(" ")} `) + (command.description ? command.description : "") + "\n");
+    });
+    console.log(clc.cyan("-".repeat(Math.floor(process.stdout.columns/2))));
+}, "Displays the very help menu you're watching"));
 
-const cmds = [
-    "save",
-    "regions",
-    "time",
-    "day",
-    "person",
-    "region",
-]
-
-function save() {
-    saveWorld();
-    saveTimeline();
-    console.log("Save successfull");
-}
-
-function regions() {
-    printer.printWorld();
-}
-
-function time() {
-    printer.printTimeline();
-}
-
-function person(args: string[]) {
-    PersonPrinter.printPersonDetails(Number(args[0]))
-}
-
-function region(args: string[]) {
-    printer.printRegion(Number(args[0]));
-}
-
-function day(args: string[]) {
-    //params has to be in the format of : year month day
-    const [year, month, day] = args;
-    const date = { year: Number(year) - 1, month: Number(month) - 1, day: Number(day) - 1 };
-    printer.printDay(date);
-}
-
-
-
-function saveWorld() {
-    fs.writeFileSync(path.join(__dirname, "../data/world.json"), JSON.stringify(world));
-}
-
-function saveTimeline() {
-    fs.writeFileSync(path.join(__dirname, "../data/timeline.json"), JSON.stringify(timeline));
+export function parseCmd(rawStr: string) {
+    const args = rawStr.split(" ");
+    const cmd = commands.find(command => command.key == args[0].toLowerCase());
+    if (cmd) cmd.execute(args.slice(1, args.length))
+    else console.log(clc.red("Unknown command."));
 }

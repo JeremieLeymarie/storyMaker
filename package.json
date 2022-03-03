@@ -5,6 +5,7 @@
   "main": "index.ts",
   "scripts": {
     "cli": "ts-node-dev --respawn --transpile-only index.ts",
+    "dev": "ts-node-dev --respawn --transpile-only index.ts",
     "test": "ts-node-dev --respawn --transpile-only test.ts",
     "serve": "ts-node-dev --respawn --transpile-only server.ts"
   },
