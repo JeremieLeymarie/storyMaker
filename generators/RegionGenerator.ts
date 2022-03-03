@@ -5,6 +5,7 @@ import { Person } from "./PersonGenerator";
 import { ReignStart } from "./events/ReignStart";
 import { ReignEnd } from "./events/ReignEnd";
 import { DateGenerator } from "./DateGenerator";
+import { FlagGenerator } from "./FlagGenerator";
 
 export class Region {
     id: number;
@@ -12,6 +13,7 @@ export class Region {
     climate: string;
     population: number;
     reigns: Reign[];
+    flagURL: string;
 
     public constructor({ regionId, lifespan }: RegionParams) {
         this.id = regionId;
@@ -19,6 +21,8 @@ export class Region {
         this.climate = this.generateClimate();
         this.population = getRandomNumberInRange(1000, 10000000);
         this.reigns = this.generateReigns(lifespan);
+        new FlagGenerator(this.name + ".png");
+        this.flagURL = this.name + ".png";
     }
 
     private generateClimate(): string {
@@ -46,10 +50,10 @@ export class Region {
                     else {
                         reignStartDate = new ReignStart({ year: years, month: months, day: days }, rulerId, this.id,).date;
                     }
-                    const role:RulerRole = {
-                        type:"ruler", 
-                        start : reignStartDate,
-                        regionId:this.id,
+                    const role: RulerRole = {
+                        type: "ruler",
+                        start: reignStartDate,
+                        regionId: this.id,
                     }
                     const ruler = new Person({ id: rulerId, role, birthConditions: { min: reignStartDate.year - 50, max: reignStartDate.year - 15 }, deathConditions: { min: reignStartDate.year, max: 1500 } });
                     let end: EventDate;
