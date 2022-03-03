@@ -79,6 +79,5 @@ export interface ErrorPrinterParams{
     line? : string,
 }
 
-
 export type Role = RulerRole;
 export type Event = BirthEvent| DeathEvent| ReignStart | ReignEnd;
