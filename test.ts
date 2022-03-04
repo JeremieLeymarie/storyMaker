@@ -1,3 +1,5 @@
-import { FlagGenerator } from "./generators/FlagGenerator";
+import { MapGenerator } from "./generators/MapGenerator";
 
-const flag = new FlagGenerator("TEST.png"); 
+const worldGen = new MapGenerator();
+// worldGen.printMap(); 
+worldGen.generatePng(); 

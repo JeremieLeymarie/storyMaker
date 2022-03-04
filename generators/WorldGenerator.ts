@@ -2,6 +2,7 @@ import { WorldGeneratorParams } from "../types/interfaces";
 import { getRandomNumberInRange } from "../utils";
 import { Region } from "./RegionGenerator";
 import { Name } from "./NameGenerator";
+import { MapGenerator } from "./MapGenerator";
 
 export class World {
     nbOfRegions: number;
@@ -24,7 +25,8 @@ export class World {
         }
     }
 
-    public save() {
-
+    public generateMap(){
+        const map = new MapGenerator();
+        map.generatePng(); 
     }
 }

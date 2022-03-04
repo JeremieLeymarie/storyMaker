@@ -1,8 +1,12 @@
 declare global {
-    var world : World; 
-    var timeline: any[][][][]; 
-    var people : Person[];
-    var CURRENT_PHASE : string, 
+    var world: World;
+    var timeline: any[][][][];
+    var people: Person[];
+    var CURRENT_PHASE: string,
 }
 
-export {};
+declare module 'perlin-noise'{
+    function generatePerlinNoise():number[];
+    export = generatePerlinNoise;
+}
+export { };

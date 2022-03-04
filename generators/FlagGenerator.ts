@@ -5,8 +5,8 @@ import * as fs from "fs";
 export class FlagGenerator {
     numberOfLines: number;
     orientation: "vertical" | "horizontal";
-    width: number = 300;
-    height: number = 200;
+        width: number = 300;
+        height: number = 200;
     filename: string;
 
     constructor(filename: string) {
@@ -23,7 +23,7 @@ export class FlagGenerator {
             ? this.width
             : this.height) / this.numberOfLines;
 
-        const canvas = createCanvas(this.width, this.height, "SVG");
+        const canvas = createCanvas(this.width, this.height, "svg");
         const ctx = canvas.getContext('2d');
 
         for (let i = 0; i < this.numberOfLines; i++) {
