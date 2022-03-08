@@ -44,7 +44,10 @@ const commands = [
             if (err) throw err;
             fs.writeFile(path.join(__dirname, "../data/timeline.json"), JSON.stringify(timeline), (err) => {
                 if (err) throw err;
-                console.log(clc.green("Successfully saved!"));
+                fs.writeFile(path.join(__dirname, "../data/people.json"), JSON.stringify(people), (err) => {
+                    if (err) throw err;
+                    console.log(clc.green("Successfully saved!"));
+                });
             });
         });
     }, "Save the current world info in the data folder"),

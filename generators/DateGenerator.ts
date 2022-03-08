@@ -44,4 +44,11 @@ export abstract class DateGenerator {
 
         return { year, month, day }
     }
+
+    public static compareDates(a: EventDate, b: EventDate, min: boolean = true): EventDate  {
+        if (a.year < b.year) return min ? a : b;
+        if (a.month < b.month) return min ? a : b;
+        if (a.day < b.day) return min ? a : b;
+        else return a;
+    }
 }

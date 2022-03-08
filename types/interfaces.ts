@@ -2,6 +2,8 @@ import { BirthEvent } from "../generators/events/BirthEvent"
 import { DeathEvent } from "../generators/events/DeathEvent"
 import { ReignEnd } from "../generators/events/ReignEnd"
 import { ReignStart } from "../generators/events/ReignStart"
+import RelationShipStart from "../generators/events/RelationShipStart"
+import { Person } from "../generators/PersonGenerator"
 
 export interface NameGeneratorParams {
     min?: number,
@@ -37,8 +39,8 @@ export interface RangeCondition {
 export interface RulerRole {
     type: "ruler",
     start?: EventDate,
-    end?: EventDate|false,
-    regionId : number,
+    end?: EventDate | false,
+    regionId: number,
 }
 
 export interface EventParams {
@@ -53,6 +55,7 @@ export interface EventDate {
 }
 
 export interface Reign {
+    rulerName?: string,
     rulerId: number,
     dateStart: EventDate,
     dateEnd: EventDate | false,
@@ -61,9 +64,9 @@ export interface Reign {
 
 export interface DeathEventParams {
     personId: number,
-    condition : {
-        type : "birth"|"deathAfter", 
-        cond : number, 
+    condition: {
+        type: "birth" | "deathAfter",
+        cond: number,
     }
 }
 
@@ -72,12 +75,18 @@ export interface RegionParams {
     lifespan: number,
 }
 
-export interface ErrorPrinterParams{
-    errorType : string, 
-    fn? : string, 
-    file : string, 
-    line? : string,
+export interface ErrorPrinterParams {
+    errorType: string,
+    fn?: string,
+    file: string,
+    line?: string,
 }
 
-export type Role = RulerRole;
-export type Event = BirthEvent| DeathEvent| ReignStart | ReignEnd;
+export interface RelationShip {
+    personId: number,
+    person: Person,
+    start: RelationShipStart,
+}
+
+export type Role = RulerRole | null;
+export type Event = BirthEvent | DeathEvent | ReignStart | ReignEnd;
