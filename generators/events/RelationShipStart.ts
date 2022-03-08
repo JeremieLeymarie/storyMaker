@@ -21,5 +21,10 @@ export default class RelationShipStart {
             maxDate = 100;
         }
         this.date = DateGenerator.randomDate(minDate + 18, maxDate)
+
+        const {year, month, day} = this.date; 
+        if(year >= 0 && year <100){
+            timeline[year][month][day].push(this); 
+        }
     }
 }
