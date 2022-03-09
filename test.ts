@@ -9,7 +9,7 @@ const person = people[0];
 
 // console.log(person); 
 person.generateDetails(); 
-console.log(person);
+// console.log(person);
 if(person.family.relationShip){
     // console.log(person.family.relationShip.start);
     console.log(person.family.relationShip.start.people[0]);

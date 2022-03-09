@@ -24,9 +24,10 @@ export class Person {
         weight?: number,
     };
     family?: {
-        relationShip: RelationShip,
+        relationShip?: RelationShip,
         children?: number[]//personId, 
-    }
+    };
+    wealth?: number;
 
     public constructor({ id, role, birthConditions, deathConditions }: PersonParams) {
         this.name = new Name({}).generateName();
@@ -81,12 +82,39 @@ export class Person {
     public generateFamily() {
         const family: { relationShip?: RelationShip, children?: number[] } = {};
         const isInRelationship = getRandomBool();
-        if (isInRelationship) {
-            //CREATE A NEW PERSON OR USE AN EXISTING ONE 
-            const birthConditions = { min: this.birthday.year - 15, max: this.birthday.year + 15 };
-            const person = new Person({ id: people.length, role: null, birthConditions });
-            family.relationShip = { start: new RelationShipStart(this, person), person, personId: person.id };
-        }
+        if (isInRelationship) family.relationShip = this.generateRelationShip();
         return family;
     }
-}   
+
+    public generateRelationShip(): RelationShip {
+        const dateExistingPerson = getRandomBool(20);
+        let person;
+        if (dateExistingPerson) {
+            person = people.find((e) => findMatchingPerson(e, this));
+        }
+        if (person) {
+            return { start: new RelationShipStart(this, person), person, personId: person.id };
+        }
+        else {
+            const birthConditions = { min: this.birthday.year - 15, max: this.birthday.year + 15 };
+            person = new Person({ id: people.length, role: null, birthConditions });
+            return { start: new RelationShipStart(this, person), person, personId: person.id };
+        }
+    }
+
+
+
+    public generateRole() {
+
+    }
+}
+
+function findMatchingPerson(personA: Person, personB: Person) {
+    // console.log("TEST", personA, personB);
+    // console.log("\n\n\n")
+    const isSomeOneElse = personA.id !== personB.id;
+    const ageDifference = Math.abs(personA.birthday.year - personB.birthday.year) <= 15;
+    const age = personA.birthday.year < 100 - 18;
+    const inRelation = personA.family?.relationShip ? false : true;
+    return ageDifference && age && inRelation && isSomeOneElse;
+}
